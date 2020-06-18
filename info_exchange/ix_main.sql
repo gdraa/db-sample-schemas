@@ -81,7 +81,7 @@ SPOOL &spool_file
 
 PROMPT dropping user ...
 
-DROP USER ix CASCADE;
+--DROP USER ix CASCADE;
 
 REM =======================================================
 REM CREATE THE ix USER
@@ -206,7 +206,7 @@ REM =======================================================
 
 CONNECT ix/&pass@&connect_string
 
-DEFINE vscript = __SUB__CWD__/info_exchange/cix_&vrs
+DEFINE vscript = &&__SUB__CWD__/info_exchange/cix_&vrs
 @&vscript
 
 REM =======================================================
@@ -215,7 +215,7 @@ REM =======================================================
 
 CONNECT ix/&pass@&connect_string
 
-DEFINE vscript = __SUB__CWD__/info_exchange/vix_&vrs
+DEFINE vscript = &&__SUB__CWD__/info_exchange/vix_&vrs
 @&vscript
 
 REM =======================================================

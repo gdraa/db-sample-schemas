@@ -53,7 +53,7 @@ rem   ahunold   01/09/01 - checkin ADE
 -- ======================================================================
 
 CREATE TYPE warehouse_typ
- OID '82A4AF6A4CD3656DE034080020E0EE3D'
+ --OID '82A4AF6A4CD3656DE034080020E0EE3D'
  AS OBJECT
     ( warehouse_id       NUMBER(3)
     , warehouse_name     VARCHAR2(35)
@@ -61,7 +61,7 @@ CREATE TYPE warehouse_typ
     ) ;
 /
 CREATE TYPE inventory_typ
- OID '82A4AF6A4CD4656DE034080020E0EE3D'
+ --OID '82A4AF6A4CD4656DE034080020E0EE3D'
  AS OBJECT
     ( product_id          NUMBER(6) 
     , warehouse           warehouse_typ
@@ -69,11 +69,11 @@ CREATE TYPE inventory_typ
     ) ;
 /
 CREATE TYPE inventory_list_typ
- OID '82A4AF6A4CD5656DE034080020E0EE3D'
+ --OID '82A4AF6A4CD5656DE034080020E0EE3D'
  AS TABLE OF inventory_typ;
 /
 CREATE TYPE product_information_typ
- OID '82A4AF6A4CD6656DE034080020E0EE3D'
+ --OID '82A4AF6A4CD6656DE034080020E0EE3D'
  AS OBJECT
     ( product_id           NUMBER(6)
     , product_name         VARCHAR2(50)
@@ -90,7 +90,7 @@ CREATE TYPE product_information_typ
     ) ;
 /
 CREATE TYPE order_item_typ
- OID '82A4AF6A4CD7656DE034080020E0EE3D'
+ --OID '82A4AF6A4CD7656DE034080020E0EE3D'
  AS OBJECT
     ( order_id           NUMBER(12)
     , line_item_id       NUMBER(3)
@@ -100,14 +100,14 @@ CREATE TYPE order_item_typ
     ) ;
 /
 CREATE TYPE order_item_list_typ
- OID '82A4AF6A4CD8656DE034080020E0EE3D'
+ --OID '82A4AF6A4CD8656DE034080020E0EE3D'
  AS TABLE OF order_item_typ;
 /
 CREATE TYPE customer_typ
  OID '82A4AF6A4CD9656DE034080020E0EE3D';
 /
 CREATE TYPE order_typ
- OID '82A4AF6A4CDA656DE034080020E0EE3D'
+ --OID '82A4AF6A4CDA656DE034080020E0EE3D'
  AS OBJECT
     ( order_id           NUMBER(12)
     , order_mode         VARCHAR2(8)
@@ -119,7 +119,7 @@ CREATE TYPE order_typ
     ) ;
 /
 CREATE TYPE order_list_typ
- OID '82A4AF6A4CDB656DE034080020E0EE3D'
+ --OID '82A4AF6A4CDB656DE034080020E0EE3D'
  AS TABLE OF order_typ;
 /
 CREATE OR REPLACE TYPE customer_typ
@@ -138,7 +138,7 @@ CREATE OR REPLACE TYPE customer_typ
 NOT FINAL;
 /
 CREATE TYPE category_typ
- OID '82A4AF6A4CDC656DE034080020E0EE3D'
+ --OID '82A4AF6A4CDC656DE034080020E0EE3D'
  AS OBJECT 
     ( category_name           VARCHAR2(50) 
     , category_description    VARCHAR2(1000) 
@@ -149,11 +149,11 @@ CREATE TYPE category_typ
   NOT INSTANTIABLE NOT FINAL; 
 / 
 CREATE TYPE subcategory_ref_list_typ
- OID '82A4AF6A4CDD656DE034080020E0EE3D'
+ --OID '82A4AF6A4CDD656DE034080020E0EE3D'
  AS TABLE OF REF category_typ; 
 / 
 CREATE TYPE product_ref_list_typ
- OID '82A4AF6A4CDE656DE034080020E0EE3D'
+ --OID '82A4AF6A4CDE656DE034080020E0EE3D'
  AS TABLE OF number(6); 
 / 
 CREATE TYPE corporate_customer_typ
@@ -163,7 +163,7 @@ CREATE TYPE corporate_customer_typ
       ); 
 / 
 CREATE TYPE leaf_category_typ
- OID '82A4AF6A4CE0656DE034080020E0EE3D'
+ --OID '82A4AF6A4CE0656DE034080020E0EE3D'
  UNDER category_typ 
     ( 
     product_ref_list    product_ref_list_typ 
@@ -178,7 +178,7 @@ CREATE TYPE BODY leaf_category_typ AS
    END; 
 / 
 CREATE TYPE composite_category_typ
- OID '82A4AF6A4CE1656DE034080020E0EE3D'
+ --OID '82A4AF6A4CE1656DE034080020E0EE3D'
  UNDER category_typ 
       ( 
     subcategory_ref_list subcategory_ref_list_typ 
@@ -194,7 +194,7 @@ CREATE TYPE BODY composite_category_typ  AS
    END; 
 /
 CREATE TYPE catalog_typ
- OID '82A4AF6A4CE2656DE034080020E0EE3D'
+ --OID '82A4AF6A4CE2656DE034080020E0EE3D'
  UNDER composite_category_typ 
       ( 
     MEMBER FUNCTION getCatalogName RETURN VARCHAR2 

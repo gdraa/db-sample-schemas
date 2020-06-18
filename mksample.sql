@@ -98,6 +98,7 @@ SET ECHO OFF
 SET CONCAT '.'
 SET SHOWMODE OFF
 
+DEFINE __SUB__CWD__  = &0
 PROMPT 
 PROMPT specify password for SYSTEM as parameter 1:
 DEFINE password_system     = &1
@@ -154,33 +155,33 @@ CONNECT system/&&password_system@&&connect_string
 
 SET SHOWMODE OFF
 
-@__SUB__CWD__/human_resources/hr_main.sql &&password_hr &&default_ts &&temp_ts &&password_sys &&logfile_dir &&connect_string
+@&&__SUB__CWD__/human_resources/hr_main.sql &&password_hr &&default_ts &&temp_ts &&password_sys &&logfile_dir &&connect_string
 
 CONNECT system/&&password_system@&&connect_string
 SET SHOWMODE OFF
 
-@__SUB__CWD__/order_entry/oe_main.sql &&password_oe &&default_ts &&temp_ts &&password_hr &&password_sys __SUB__CWD__/order_entry/ &&logfile_dir &vrs &&connect_string
+@&&__SUB__CWD__/order_entry/oe_main.sql &&password_oe &&default_ts &&temp_ts &&password_hr &&password_sys &&__SUB__CWD__/order_entry/ &&logfile_dir &vrs &&connect_string
 
 CONNECT system/&&password_system@&&connect_string
 
 SET SHOWMODE OFF
 
-@__SUB__CWD__/product_media/pm_main.sql &&password_pm &&default_ts &&temp_ts &&password_oe &&password_sys __SUB__CWD__/product_media/ &&logfile_dir __SUB__CWD__/product_media/ &&connect_string
+@&&__SUB__CWD__/product_media/pm_main.sql &&password_pm &&default_ts &&temp_ts &&password_oe &&password_sys &&__SUB__CWD__/product_media/ &&logfile_dir &&__SUB__CWD__/product_media/ &&connect_string
 
 CONNECT system/&&password_system@&&connect_string
 SET SHOWMODE OFF
 
-@__SUB__CWD__/info_exchange/ix_main.sql &&password_ix &&default_ts &&temp_ts &&password_sys &&logfile_dir &vrs &&connect_string
+@&&__SUB__CWD__/info_exchange/ix_main.sql &&password_ix &&default_ts &&temp_ts &&password_sys &&logfile_dir &vrs &&connect_string
 
 CONNECT system/&&password_system@&&connect_string
 SET SHOWMODE OFF
 
-@__SUB__CWD__/sales_history/sh_main &&password_sh &&default_ts &&temp_ts &&password_sys __SUB__CWD__/sales_history/ &&logfile_dir &vrs &&connect_string
+@&&__SUB__CWD__/sales_history/sh_main &&password_sh &&default_ts &&temp_ts &&password_sys &&__SUB__CWD__/sales_history/ &&logfile_dir &vrs &&connect_string
 
 CONNECT system/&&password_system@&&connect_string
 SET SHOWMODE OFF
 
-@__SUB__CWD__/bus_intelligence/bi_main &&password_bi &&default_ts &&temp_ts &&password_sys &&password_oe &&password_sh &&logfile_dir &vrs &&connect_string
+@&&__SUB__CWD__/bus_intelligence/bi_main &&password_bi &&default_ts &&temp_ts &&password_sys &&password_oe &&password_sh &&logfile_dir &vrs &&connect_string
 
 CONNECT system/&&password_system@&&connect_string
 
@@ -188,5 +189,5 @@ SPOOL OFF
 
 DEFINE veri_spool = &&logfile_dir.mkverify_&vrs..log
 
-@__SUB__CWD__/mkverify &&password_system &veri_spool &&connect_string
+@&&__SUB__CWD__/mkverify &&password_system &veri_spool &&connect_string
 

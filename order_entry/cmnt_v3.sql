@@ -45,7 +45,7 @@ COMMENT ON COLUMN oe.customers.cust_address IS
 
 COMMENT ON COLUMN oe.customers.phone_numbers IS
 'Varray column of type phone_list_typ';
-.
+
 COMMENT ON COLUMN oe.customers.cust_geo_location IS
 'SDO (spatial) column.';
 

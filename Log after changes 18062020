@@ -1,0 +1,4942 @@
+
+specify password for SYSTEM as parameter 1:
+
+specify password for SYS as parameter 2:
+
+specify password for HR as parameter 3:
+
+specify password for OE as parameter 4:
+
+specify password for PM as parameter 5:
+
+specify password for IX as parameter 6:
+
+specify password for  SH as parameter 7:
+
+specify password for  BI as parameter 8:
+
+specify default tablespace as parameter 9:
+
+specify temporary tablespace as parameter 10:
+
+specify log file directory (including trailing delimiter) as parameter 11:
+
+specify connect string as parameter 12:
+
+Sample Schemas are being created ...
+
+Ya existe el subdirectorio o el archivo log.
+
+Conectado.
+
+User HR borrado.
+
+
+User OE borrado.
+
+
+User PM borrado.
+
+
+User IX borrado.
+
+
+User SH borrado.
+
+
+User BI borrado.
+
+Conectado.
+
+specify password for HR as parameter 1:
+
+specify default tablespeace for HR as parameter 2:
+
+specify temporary tablespace for HR as parameter 3:
+
+specify password for SYS as parameter 4:
+
+specify log path as parameter 5:
+
+specify connect string as parameter 6:
+
+
+User HR creado.
+
+
+User HR alterado.
+
+
+User HR alterado.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+Conectado.
+
+Grant correcto.
+
+Conectado.
+
+Session alterado.
+
+
+Session alterado.
+
+******  Creating REGIONS table ....
+
+Table REGIONS creado.
+
+
+INDEX REG_ID_PK creado.
+
+
+Table REGIONS alterado.
+
+******  Creating COUNTRIES table ....
+
+Table COUNTRIES creado.
+
+
+Table COUNTRIES alterado.
+
+******  Creating LOCATIONS table ....
+
+Table LOCATIONS creado.
+
+
+INDEX LOC_ID_PK creado.
+
+
+Table LOCATIONS alterado.
+
+
+Sequence LOCATIONS_SEQ creado.
+
+******  Creating DEPARTMENTS table ....
+
+Table DEPARTMENTS creado.
+
+
+INDEX DEPT_ID_PK creado.
+
+
+Table DEPARTMENTS alterado.
+
+
+Sequence DEPARTMENTS_SEQ creado.
+
+******  Creating JOBS table ....
+
+Table JOBS creado.
+
+
+INDEX JOB_ID_PK creado.
+
+
+Table JOBS alterado.
+
+******  Creating EMPLOYEES table ....
+
+Table EMPLOYEES creado.
+
+
+INDEX EMP_EMP_ID_PK creado.
+
+
+Table EMPLOYEES alterado.
+
+
+Table DEPARTMENTS alterado.
+
+
+Sequence EMPLOYEES_SEQ creado.
+
+******  Creating JOB_HISTORY table ....
+
+Table JOB_HISTORY creado.
+
+
+INDEX JHIST_EMP_ID_ST_DATE_PK creado.
+
+
+Table JOB_HISTORY alterado.
+
+******  Creating EMP_DETAILS_VIEW view ...
+
+View EMP_DETAILS_VIEW creado.
+
+Confirmación terminada.
+
+Session alterado.
+
+******  Populating REGIONS table ....
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+******  Populating COUNTIRES table ....
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+******  Populating LOCATIONS table ....
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+******  Populating DEPARTMENTS table ....
+
+Table DEPARTMENTS alterado.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+******  Populating JOBS table ....
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+******  Populating EMPLOYEES table ....
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+******  Populating JOB_HISTORY table ....
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+Table DEPARTMENTS alterado.
+
+Confirmación terminada.
+
+Index EMP_DEPARTMENT_IX creado.
+
+
+Index EMP_JOB_IX creado.
+
+
+Index EMP_MANAGER_IX creado.
+
+
+Index EMP_NAME_IX creado.
+
+
+Index DEPT_LOCATION_IX creado.
+
+
+Index JHIST_JOB_IX creado.
+
+
+Index JHIST_EMPLOYEE_IX creado.
+
+
+Index JHIST_DEPARTMENT_IX creado.
+
+
+Index LOC_CITY_IX creado.
+
+
+Index LOC_STATE_PROVINCE_IX creado.
+
+
+Index LOC_COUNTRY_IX creado.
+
+Confirmación terminada.
+
+Procedure SECURE_DML compilado
+
+
+Trigger SECURE_EMPLOYEES compilado
+
+
+Trigger SECURE_EMPLOYEES alterado.
+
+
+Procedure ADD_JOB_HISTORY compilado
+
+
+Trigger UPDATE_JOB_HISTORY compilado
+
+Confirmación terminada.
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+Confirmación terminada.
+Procedimiento PL/SQL terminado correctamente.
+Conectado.
+
+specify password for OE as parameter 1:
+
+specify default tablespeace for OE as parameter 2:
+
+specify temporary tablespace for OE as parameter 3:
+
+specify password for HR as parameter 4:
+
+specify password for SYS as parameter 5:
+
+specify directory path for the data files as parameter 6:
+
+writeable directory path for the log files as parameter 7:
+
+specify version as parameter 8:
+
+specify connect string as parameter 9:
+
+
+User OE creado.
+
+
+User OE alterado.
+
+
+User OE alterado.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+Conectado.
+
+Grant correcto.
+
+Conectado.
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+Conectado.
+
+Session alterado.
+
+
+Session alterado.
+
+
+specify Sample Schema version as parameter 1:
+
+specify password for OE as parameter 2:
+
+PROMPT password for SYS as parameter 3:
+
+specify connect string as parameter 4:
+
+
+Type CUST_ADDRESS_TYP compilado
+
+
+Type PHONE_LIST_TYP compilado
+
+
+Table CUSTOMERS creado.
+
+
+INDEX CUSTOMERS_PK creado.
+
+
+Table CUSTOMERS alterado.
+
+
+Table WAREHOUSES creado.
+
+
+INDEX WAREHOUSES_PK creado.
+
+
+Table WAREHOUSES alterado.
+
+
+Table ORDER_ITEMS creado.
+
+
+INDEX ORDER_ITEMS_PK creado.
+
+
+INDEX ORDER_ITEMS_UK creado.
+
+
+Table ORDER_ITEMS alterado.
+
+
+Trigger INSERT_ORD_LINE compilado
+
+
+Table ORDERS creado.
+
+
+INDEX ORDER_PK creado.
+
+
+Table ORDERS alterado.
+
+
+Table INVENTORIES creado.
+
+
+Index INVENTORY_IX creado.
+
+
+Table INVENTORIES alterado.
+
+
+Table PRODUCT_INFORMATION creado.
+
+
+Table PRODUCT_INFORMATION alterado.
+
+
+Table PRODUCT_DESCRIPTIONS creado.
+
+
+INDEX PRD_DESC_PK creado.
+
+
+Table PRODUCT_DESCRIPTIONS alterado.
+
+
+Table PROMOTIONS creado.
+
+
+Table PROMOTIONS alterado.
+
+
+Table ORDERS alterado.
+
+
+Table ORDERS alterado.
+
+
+Table WAREHOUSES alterado.
+
+
+Table CUSTOMERS alterado.
+
+
+Table INVENTORIES alterado.
+
+
+Table INVENTORIES alterado.
+
+
+Table ORDER_ITEMS alterado.
+
+
+Table ORDER_ITEMS alterado.
+
+
+Table PRODUCT_DESCRIPTIONS alterado.
+
+
+Synonym COUNTRIES creado.
+
+
+Synonym LOCATIONS creado.
+
+
+Synonym DEPARTMENTS creado.
+
+
+Synonym JOBS creado.
+
+
+Synonym EMPLOYEES creado.
+
+
+Synonym JOB_HISTORY creado.
+
+
+Sequence ORDERS_SEQ creado.
+
+
+specify password for OE as parameter 1:
+
+PROMPT password for SYS as parameter 2:
+
+specify connect string as parameter 3:
+
+Conectado.
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+View DATABASE_SUMMARY creado.
+
+
+Grant correcto.
+
+
+Session alterado.
+
+
+Package COE_CONFIGURATION compilado
+
+
+Package Body COE_CONFIGURATION compilado
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+89/4      PL/SQL: SQL Statement ignored
+91/11     PL/SQL: ORA-00942: la tabla o vista no existe
+Errores: comprobar log de compilador
+
+View DATABASE_SUMMARY creado.
+
+
+Package COE_CONFIGURATION alterado.
+
+
+View DATABASE_SUMMARY alterado.
+
+
+Grant correcto.
+
+
+Trigger NO_DML_OPERATIONS_ALLOWED compilado
+
+
+SYNONYM COE_CONFIGURATION creado.
+
+
+Grant correcto.
+
+
+Llamada terminada.
+
+
+Session alterado.
+
+
+Session alterado.
+
+
+Function XMLROOT compilado
+
+no se ha seleccionado ninguna fila
+
+SYNONYM XMLROOT creado.
+
+
+Grant correcto.
+
+
+Package COE_NAMESPACES compilado
+
+no se ha seleccionado ninguna fila
+
+SYNONYM COE_NAMESPACES creado.
+
+
+Grant correcto.
+
+
+Package COE_DOM_HELPER compilado
+
+no se ha seleccionado ninguna fila
+
+Package Body COE_DOM_HELPER compilado
+
+no se ha seleccionado ninguna fila
+
+SYNONYM COE_DOM_HELPER creado.
+
+
+Grant correcto.
+
+
+Package COE_UTILITIES compilado
+
+no se ha seleccionado ninguna fila
+
+Package Body COE_UTILITIES compilado
+
+no se ha seleccionado ninguna fila
+
+Grant correcto.
+
+
+SYNONYM COE_UTILITIES creado.
+
+
+Package COE_TOOLS compilado
+
+no se ha seleccionado ninguna fila
+
+Package Body COE_TOOLS compilado
+
+no se ha seleccionado ninguna fila
+
+SYNONYM COE_TOOLS creado.
+
+
+Grant correcto.
+
+
+specify password for OE as parameter 1:
+
+PROMPT password for SYS as parameter 2:
+
+specify connect string as parameter 3:
+
+Procedimiento PL/SQL terminado correctamente.
+Conectado.
+
+Directory SS_OE_XMLDIR borrado.
+
+
+Directory SS_OE_XMLDIR creado.
+
+Confirmación terminada.
+Conectado.
+
+Revoke correcto.
+
+Conectado.
+Conectado.
+
+Session alterado.
+
+Procedimiento PL/SQL terminado correctamente.
+Procedimiento PL/SQL terminado correctamente.
+Procedimiento PL/SQL terminado correctamente.
+
+Llamada terminada.
+
+
+Llamada terminada.
+
+Procedimiento PL/SQL terminado correctamente.
+Conectado.
+
+Revoke correcto.
+
+Conectado.
+Conectado.
+
+Revoke correcto.
+
+
+Revoke correcto.
+
+
+Revoke correcto.
+
+
+Package XDB.COE_CONFIGURATION borrado.
+
+
+Package XDB.COE_NAMESPACES borrado.
+
+
+Package XDB.COE_DOM_HELPER borrado.
+
+
+Package XDB.COE_UTILITIES borrado.
+
+
+Package XDB.COE_TOOLS borrado.
+
+
+Trigger XDB.NO_DML_OPERATIONS_ALLOWED borrado.
+
+
+View XDB.DATABASE_SUMMARY borrado.
+
+Conectado.
+Confirmación terminada.
+
+specify Sample Schema version as parameter 1:
+
+specify location for data and control files as parameter 2:
+
+specify location for log files as parameter 3:
+
+specify password for oe as parameter 4:
+
+Setting FEEDBACK OFF for inserts
+
+Setting FEEDBACK ON
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+Confirmación terminada.
+
+Table CUSTOMERS alterado.
+
+
+Session alterado.
+
+
+Session alterado.
+
+Confirmación terminada.
+
+View PRODUCTS creado.
+
+
+View SYDNEY_INVENTORY creado.
+
+
+View BOMBAY_INVENTORY creado.
+
+
+View TORONTO_INVENTORY creado.
+
+
+View PRODUCT_PRICES creado.
+
+
+View ACCOUNT_MANAGERS creado.
+
+
+Function GET_PHONE_NUMBER_F compilado
+
+
+View CUSTOMERS_VIEW creado.
+
+
+View ORDERS_VIEW creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Index WHS_LOCATION_IX creado.
+
+
+Index INV_PRODUCT_IX creado.
+
+
+Index ITEM_ORDER_IX creado.
+
+
+Index ITEM_PRODUCT_IX creado.
+
+
+Index ORD_SALES_REP_IX creado.
+
+
+Index ORD_CUSTOMER_IX creado.
+
+
+Index ORD_ORDER_DATE_IX creado.
+
+
+Index CUST_ACCOUNT_MANAGER_IX creado.
+
+
+Index CUST_LNAME_IX creado.
+
+
+Index CUST_EMAIL_IX creado.
+
+
+Index PROD_NAME_IX creado.
+
+
+Index PROD_SUPPLIER_IX creado.
+
+
+Index CUST_UPPER_NAME_IX creado.
+
+
+Session alterado.
+
+...creating subschema OC in OE
+
+Type WAREHOUSE_TYP compilado
+
+
+Type INVENTORY_TYP compilado
+
+
+Type INVENTORY_LIST_TYP compilado
+
+
+Type PRODUCT_INFORMATION_TYP compilado
+
+
+Type ORDER_ITEM_TYP compilado
+
+
+Type ORDER_ITEM_LIST_TYP compilado
+
+
+Type CUSTOMER_TYP compilado
+
+
+Type ORDER_TYP compilado
+
+
+Type ORDER_LIST_TYP compilado
+
+
+Type CUSTOMER_TYP compilado
+
+
+Type CATEGORY_TYP compilado
+
+
+Type SUBCATEGORY_REF_LIST_TYP compilado
+
+
+Type PRODUCT_REF_LIST_TYP compilado
+
+
+Type CORPORATE_CUSTOMER_TYP compilado
+
+
+Type LEAF_CATEGORY_TYP compilado
+
+
+Type Body LEAF_CATEGORY_TYP compilado
+
+
+Type COMPOSITE_CATEGORY_TYP compilado
+
+
+Type Body COMPOSITE_CATEGORY_TYP compilado
+
+
+Type CATALOG_TYP compilado
+
+
+Type Body CATALOG_TYP compilado
+
+
+Table CATEGORIES_TAB creado.
+
+
+View OC_INVENTORIES creado.
+
+
+View OC_PRODUCT_INFORMATION creado.
+
+
+View OC_CUSTOMERS creado.
+
+
+View OC_CUSTOMERS creado.
+
+
+View OC_CORPORATE_CUSTOMERS creado.
+
+
+View OC_ORDERS creado.
+
+
+Trigger ORDERS_TRG compilado
+
+
+Trigger ORDERS_ITEMS_TRG compilado
+
+Confirmación terminada.
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+1 fila insertadas.
+
+
+Type CATEGORY_TYP alterado.
+
+
+3 filas actualizadas.
+
+
+8 filas actualizadas.
+
+
+6 filas actualizadas.
+
+
+4 filas actualizadas.
+
+Confirmación terminada.
+
+Type CATALOG_TYP alterado.
+
+
+Type COMPOSITE_CATEGORY_TYP alterado.
+
+
+Type LEAF_CATEGORY_TYP alterado.
+
+Procedimiento PL/SQL terminado correctamente.
+Conectado.
+
+SYNONYM COE_CONFIGURATION creado.
+
+
+SYNONYM COE_NAMESPACES creado.
+
+
+SYNONYM COE_DOM_HELPER creado.
+
+
+SYNONYM COE_UTILITIES creado.
+
+
+SYNONYM COE_TOOLS creado.
+
+Conectado.
+
+specify password for PM as parameter 1:
+
+specify default tablespeace for PM as parameter 2:
+
+specify temporary tablespace for PM as parameter 3:
+
+specify password for OE as parameter 4:
+
+specify password for SYS as parameter 5:
+
+specify directory path for the PM data files as parameter 6:
+
+specify directory path for the PM load log files as parameter 7:
+
+specify work directory path as parameter 8:
+
+specify connect string as parameter 9:
+
+
+User PM creado.
+
+
+User PM alterado.
+
+
+User PM alterado.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+Conectado.
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+Conectado.
+
+Grant correcto.
+
+
+Directory MEDIA_DIR creado.
+
+
+Grant correcto.
+
+Conectado.
+
+Session alterado.
+
+
+Session alterado.
+
+
+Type ADHEADER_TYP compilado
+
+
+Type TEXTDOC_TYP compilado
+
+
+Type TEXTDOC_TAB compilado
+
+
+Table PRINT_MEDIA creado.
+
+
+INDEX PRINTMEDIA_PK creado.
+
+
+Table PRINT_MEDIA alterado.
+
+Confirmación terminada.
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Jue Jun 18 15:16:27 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Ruta de acceso utilizada:      Convencional
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/monitor_comp_ad.gif' para el campo AD_COMPOSITE, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/monitor2056_source.txt' para el campo AD_SOURCETEXT, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/monitor2056_final.txt' para el campo AD_FINALTEXT, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/monitor_german.txt' para el campo AD_FLTEXTN, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/monitor_graphic.jpg' para el campo AD_PHOTO, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/monitor_logo.jpg' para el campo LOGO, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/mousepad_comp_ad.gif' para el campo AD_COMPOSITE, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/mousepad2056_source.txt' para el campo AD_SOURCETEXT, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/mousepad2056_final.txt' para el campo AD_FINALTEXT, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/mousepad_german.txt' para el campo AD_FLTEXTN, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/mousepad_graphic.jpg' para el campo AD_PHOTO, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/mousepad_logo.jpg' para el campo LOGO, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/keyboard_comp_ad.gif' para el campo AD_COMPOSITE, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/keyboard3106_source.txt' para el campo AD_SOURCETEXT, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/keyboard3106_final.txt' para el campo AD_FINALTEXT, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/keyboard_german.txt' para el campo AD_FLTEXTN, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/keyboard_graphic.jpg' para el campo AD_PHOTO, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/keyboard_logo.jpg' para el campo LOGO, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/modem_comp_ad.gif' para el campo AD_COMPOSITE, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/modem2268_source.txt' para el campo AD_SOURCETEXT, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/modem2268_final.txt' para el campo AD_FINALTEXT, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/modem_german.txt' para el campo AD_FLTEXTN, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/modem_graphic.jpg' para el campo AD_PHOTO, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/modem_logo.jpg' para el campo LOGO, tabla  PRINT_MEDIA
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/formatted_doc.txt' para el campo FORMATTED_DOC, tabla  TEXTDOCS_NESTEDTAB
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/formatted_doc.rtf' para el campo FORMATTED_DOC, tabla  TEXTDOCS_NESTEDTAB
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/formatted_doc.doc' para el campo FORMATTED_DOC, tabla  TEXTDOCS_NESTEDTAB
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/formatted_doc.gif' para el campo FORMATTED_DOC, tabla  TEXTDOCS_NESTEDTAB
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/formatted_doc.html' para el campo FORMATTED_DOC, tabla  TEXTDOCS_NESTEDTAB
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/formatted_doc.pdf' para el campo FORMATTED_DOC, tabla  TEXTDOCS_NESTEDTAB
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/formatted_doc.gif' para el campo FORMATTED_DOC, tabla  TEXTDOCS_NESTEDTAB
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/formatted_doc.html' para el campo FORMATTED_DOC, tabla  TEXTDOCS_NESTEDTAB
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/formatted_doc.pdf' para el campo FORMATTED_DOC, tabla  TEXTDOCS_NESTEDTAB
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/formatted_doc.gif' para el campo FORMATTED_DOC, tabla  TEXTDOCS_NESTEDTAB
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/formatted_doc.html' para el campo FORMATTED_DOC, tabla  TEXTDOCS_NESTEDTAB
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+Punto de confirmación alcanzado - recuento de registros lógicos 15
+SQL*Loader-502: no se ha podido abrir el archivo de datos '__SUB__CWD__/product_media/formatted_doc.pdf' para el campo FORMATTED_DOC, tabla  TEXTDOCS_NESTEDTAB
+SQL*Loader-553: archivo no encontrado
+SQL*Loader-509: Error del sistema: El sistema no puede encontrar el archivo especificado.
+Punto de confirmación alcanzado - recuento de registros lógicos 16
+
+Tabla PRINT_MEDIA:
+  4 Filas cargadas correctamente.
+
+Tabla TEXTDOCS_NESTEDTAB:
+  12 Filas cargadas correctamente.
+
+Consulte el archivo log:
+  logpm_p_lob.log
+para obtener más información sobre la carga.
+
+Procedimiento PL/SQL terminado correctamente.
+Conectado.
+
+specify password for IX as parameter 1:
+
+specify default tablespeace for IX as parameter 2:
+
+specify temporary tablespace for IX as parameter 3:
+
+specify password for SYS as parameter 4:
+
+specify path for log files as parameter 5:
+
+specify version as parameter 6:
+
+specify connect string as parameter 7:
+
+dropping user ...
+creating user ...
+
+
+User IX creado.
+
+
+User IX alterado.
+
+
+User IX alterado.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+Conectado.
+
+Granting Streams privileges, vrs=v3 ...
+
+Procedimiento PL/SQL terminado correctamente.
+setting job_queue_processes and aq_tm_processes ...
+Procedimiento PL/SQL terminado correctamente.
+Conectado.
+
+Type ORDER_EVENT_TYP compilado
+
+Procedimiento PL/SQL terminado correctamente.
+Procedimiento PL/SQL terminado correctamente.
+Procedimiento PL/SQL terminado correctamente.
+Procedimiento PL/SQL terminado correctamente.
+Conectado.
+
+Session alterado.
+
+
+Session alterado.
+
+Procedimiento PL/SQL terminado correctamente.
+Procedimiento PL/SQL terminado correctamente.
+Procedimiento PL/SQL terminado correctamente.
+
+QUEUE           MSG_STATE       CONSUMER_NAME   USER_DATA(ORDER_ID, PRODUCT_ID, CUSTOMER_ID, CUST_FIRST_NAME
+--------------- --------------- --------------- ------------------------------------------------------------
+ORDERS_QUEUE    READY           BILLING         ORDER_EVENT_TYP(2458, 3117, 101, 'Constantin', 'Welles', 0, 
+                                                '12-DEC-02')                                                
+
+ORDERS_QUEUE    READY           SHIPPING        ORDER_EVENT_TYP(2458, 3117, 101, 'Constantin', 'Welles', 0, 
+                                                '12-DEC-02')                                                
+
+
+2 filas seleccionadas. 
+
+Procedimiento PL/SQL terminado correctamente.
+
+QUEUE           MSG_STATE       CONSUMER_NAME   USER_DATA(ORDER_ID, PRODUCT_ID, CUSTOMER_ID, CUST_FIRST_NAME
+--------------- --------------- --------------- ------------------------------------------------------------
+ORDERS_QUEUE    READY           BILLING         ORDER_EVENT_TYP(2458, 3117, 101, 'Constantin', 'Welles', 0, 
+                                                '12-DEC-02')                                                
+
+ORDERS_QUEUE    PROCESSED       SHIPPING        ORDER_EVENT_TYP(2458, 3117, 101, 'Constantin', 'Welles', 0, 
+                                                '12-DEC-02')                                                
+
+
+2 filas seleccionadas. 
+
+Procedimiento PL/SQL terminado correctamente.
+
+QUEUE           MSG_STATE       CONSUMER_NAME   USER_DATA(ORDER_ID, PRODUCT_ID, CUSTOMER_ID, CUST_FIRST_NAME
+--------------- --------------- --------------- ------------------------------------------------------------
+ORDERS_QUEUE    PROCESSED       BILLING         ORDER_EVENT_TYP(2458, 3117, 101, 'Constantin', 'Welles', 0, 
+                                                '12-DEC-02')                                                
+
+ORDERS_QUEUE    PROCESSED       SHIPPING        ORDER_EVENT_TYP(2458, 3117, 101, 'Constantin', 'Welles', 0, 
+                                                '12-DEC-02')                                                
+
+
+2 filas seleccionadas. 
+
+Procedimiento PL/SQL terminado correctamente.
+
+OBJECT_TYPE          OBJECT_NAME                    STATUS  
+-------------------- ------------------------------ --------
+EVALUATION CONTEXT   AQ$_ORDERS_QUEUETABLE_V        VALID   
+EVALUATION CONTEXT   AQ$_STREAMS_QUEUE_TABLE_V      VALID   
+INDEX                AQ$_STREAMS_QUEUE_TABLE_Y      VALID   
+INDEX                SYS_C009393                    VALID   
+INDEX                SYS_C009396                    VALID   
+INDEX                SYS_C009405                    VALID   
+INDEX                SYS_C009408                    VALID   
+INDEX                SYS_IL0000077771C00036$$       VALID   
+INDEX                SYS_IL0000077798C00028$$       VALID   
+INDEX                SYS_IL0000077798C00029$$       VALID   
+INDEX                SYS_IOT_TOP_77780              VALID   
+INDEX                SYS_IOT_TOP_77782              VALID   
+INDEX                SYS_IOT_TOP_77785              VALID   
+INDEX                SYS_IOT_TOP_77788              VALID   
+INDEX                SYS_IOT_TOP_77809              VALID   
+INDEX                SYS_IOT_TOP_77811              VALID   
+INDEX                SYS_IOT_TOP_77814              VALID   
+INDEX                SYS_IOT_TOP_77817              VALID   
+INDEX                SYS_IOT_TOP_77819              VALID   
+LOB                  SYS_LOB0000077771C00036$$      VALID   
+LOB                  SYS_LOB0000077798C00028$$      VALID   
+LOB                  SYS_LOB0000077798C00029$$      VALID   
+QUEUE                AQ$_ORDERS_QUEUETABLE_E        VALID   
+QUEUE                AQ$_STREAMS_QUEUE_TABLE_E      VALID   
+QUEUE                ORDERS_QUEUE                   VALID   
+QUEUE                STREAMS_QUEUE                  VALID   
+RULE SET             ORDERS_QUEUE_N                 VALID   
+RULE SET             ORDERS_QUEUE_R                 VALID   
+RULE SET             STREAMS_QUEUE_N                VALID   
+RULE SET             STREAMS_QUEUE_R                VALID   
+SEQUENCE             AQ$_ORDERS_QUEUETABLE_N        VALID   
+SEQUENCE             AQ$_STREAMS_QUEUE_TABLE_N      VALID   
+TABLE                AQ$_ORDERS_QUEUETABLE_G        VALID   
+TABLE                AQ$_ORDERS_QUEUETABLE_H        VALID   
+TABLE                AQ$_ORDERS_QUEUETABLE_I        VALID   
+TABLE                AQ$_ORDERS_QUEUETABLE_L        VALID   
+TABLE                AQ$_ORDERS_QUEUETABLE_S        VALID   
+TABLE                AQ$_ORDERS_QUEUETABLE_T        VALID   
+TABLE                AQ$_STREAMS_QUEUE_TABLE_C      VALID   
+TABLE                AQ$_STREAMS_QUEUE_TABLE_G      VALID   
+TABLE                AQ$_STREAMS_QUEUE_TABLE_H      VALID   
+TABLE                AQ$_STREAMS_QUEUE_TABLE_I      VALID   
+TABLE                AQ$_STREAMS_QUEUE_TABLE_L      VALID   
+TABLE                AQ$_STREAMS_QUEUE_TABLE_S      VALID   
+TABLE                AQ$_STREAMS_QUEUE_TABLE_T      VALID   
+TABLE                ORDERS_QUEUETABLE              VALID   
+TABLE                STREAMS_QUEUE_TABLE            VALID   
+TABLE                SYS_IOT_OVER_77785             VALID   
+TABLE                SYS_IOT_OVER_77814             VALID   
+TYPE                 ORDER_EVENT_TYP                VALID   
+VIEW                 AQ$ORDERS_QUEUETABLE           VALID   
+VIEW                 AQ$ORDERS_QUEUETABLE_R         VALID   
+VIEW                 AQ$ORDERS_QUEUETABLE_S         VALID   
+VIEW                 AQ$STREAMS_QUEUE_TABLE         VALID   
+VIEW                 AQ$STREAMS_QUEUE_TABLE_R       VALID   
+VIEW                 AQ$STREAMS_QUEUE_TABLE_S       VALID   
+VIEW                 AQ$_ORDERS_QUEUETABLE_F        VALID   
+VIEW                 AQ$_STREAMS_QUEUE_TABLE_F      VALID   
+
+58 filas seleccionadas. 
+
+
+OBJECT_TYPE          STATUS     COUNT(*)
+-------------------- -------- ----------
+EVALUATION CONTEXT   VALID             2
+INDEX                VALID            17
+LOB                  VALID             3
+QUEUE                VALID             4
+RULE SET             VALID             4
+SEQUENCE             VALID             2
+TABLE                VALID            17
+TYPE                 VALID             1
+VIEW                 VALID             8
+
+9 filas seleccionadas. 
+
+Conectado.
+Procedimiento PL/SQL terminado correctamente.
+Conectado.
+
+specify password for SH as parameter 1:
+
+specify default tablespace for SH as parameter 2:
+
+specify temporary tablespace for SH as parameter 3:
+
+specify password for SYS as parameter 4:
+
+specify directory path for the data files as parameter 5:
+
+writeable directory path for the log files as parameter 6:
+
+specify version as parameter 7:
+
+specify connect string as parameter 8:
+
+
+Session alterado.
+
+
+User SH creado.
+
+
+User SH alterado.
+
+
+User SH alterado.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+Conectado.
+
+Grant correcto.
+
+
+Directory DATA_FILE_DIR creado.
+
+
+Directory LOG_FILE_DIR creado.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+Conectado.
+
+Session alterado.
+
+
+Session alterado.
+
+
+Table SALES creado.
+
+
+Table COSTS creado.
+
+
+Table TIMES creado.
+
+
+Table PRODUCTS creado.
+
+
+Table CHANNELS creado.
+
+
+Table PROMOTIONS creado.
+
+
+Table CUSTOMERS creado.
+
+
+Table COUNTRIES creado.
+
+
+Table SUPPLEMENTARY_DEMOGRAPHICS creado.
+
+
+Creating constraints ...
+
+Table PROMOTIONS alterado.
+
+
+Table SALES alterado.
+
+
+Table COSTS alterado.
+
+
+Table CUSTOMERS alterado.
+
+
+Table SALES alterado.
+
+
+Table PRODUCTS alterado.
+
+
+Table SALES alterado.
+
+
+Table COSTS alterado.
+
+
+Table TIMES alterado.
+
+
+Table SALES alterado.
+
+
+Table COSTS alterado.
+
+
+Table CHANNELS alterado.
+
+
+Table SALES alterado.
+
+
+Table COSTS alterado.
+
+
+Table COUNTRIES alterado.
+
+
+Table CUSTOMERS alterado.
+
+
+Table SUPPLEMENTARY_DEMOGRAPHICS alterado.
+
+
+specify password for SH as parameter 1:
+
+specify path for data files as parameter 2:
+
+specify path for log files as parameter 3:
+
+specify version as parameter 4:
+
+specify connect string as parameter 5:
+
+Looking for indexes that could slow down load ...
+no se ha seleccionado ninguna fila
+
+loading TIMES using:
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/time_v3.ctl
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/time_v3.dat
+logtime_v3.log
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Jue Jun 18 15:16:34 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Ruta de acceso utilizada:      Directa
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1000.
+
+Carga terminada - recuento de registros lógicos 1826.
+
+Tabla TIMES:
+  1826 Filas cargadas correctamente.
+
+Consulte el archivo log:
+  logtime_v3.log
+para obtener más información sobre la carga.
+
+
+loading COUNTRIES using:
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/coun_v3.ctl
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/coun_v3.dat
+logcoun_v3.log
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Jue Jun 18 15:16:35 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Ruta de acceso utilizada:      Directa
+
+Carga terminada - recuento de registros lógicos 23.
+
+Tabla COUNTRIES:
+  23 Filas cargadas correctamente.
+
+Consulte el archivo log:
+  logcoun_v3.log
+para obtener más información sobre la carga.
+
+
+loading CUSTOMERS using:
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/cust_v3.ctl
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/cust1v3.dat
+logcust1v3.log
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Jue Jun 18 15:16:36 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Ruta de acceso utilizada:      Directa
+Punto de grabación de datos alcanzado - recuento de registros lógicos 10000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 20000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 30000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 40000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 50000.
+
+Carga terminada - recuento de registros lógicos 55500.
+
+Tabla CUSTOMERS:
+  55500 Filas cargadas correctamente.
+
+Consulte el archivo log:
+  logcust1v3.log
+para obtener más información sobre la carga.
+
+
+loading PRODUCTS  using:
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/prod_v3.ctl
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/prod1v3.dat
+logprod1v3.log
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Jue Jun 18 15:16:37 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Ruta de acceso utilizada:      Directa
+
+Carga terminada - recuento de registros lógicos 72.
+
+Tabla PRODUCTS:
+  72 Filas cargadas correctamente.
+
+Consulte el archivo log:
+  logprod1v3.log
+para obtener más información sobre la carga.
+
+
+loading PROMOTIONS  using:
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/prom_v3.ctl
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/prom1v3.dat
+logprom1v3.log
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Jue Jun 18 15:16:37 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Ruta de acceso utilizada:      Directa
+Punto de grabación de datos alcanzado - recuento de registros lógicos 10.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 20.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 30.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 40.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 50.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 60.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 70.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 80.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 90.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 100.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 110.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 120.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 130.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 140.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 150.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 160.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 170.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 180.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 190.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 200.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 210.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 220.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 230.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 240.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 250.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 260.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 270.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 280.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 290.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 300.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 310.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 320.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 330.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 340.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 350.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 360.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 370.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 380.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 390.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 400.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 410.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 420.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 430.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 440.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 450.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 460.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 470.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 480.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 490.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 500.
+
+Carga terminada - recuento de registros lógicos 503.
+
+Tabla PROMOTIONS:
+  503 Filas cargadas correctamente.
+
+Consulte el archivo log:
+  logprom1v3.log
+para obtener más información sobre la carga.
+
+
+loading CHANNELS using:
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/chan_v3.ctl
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/chan_v3.dat
+logchan_v3.log
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Jue Jun 18 15:16:38 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Ruta de acceso utilizada:      Directa
+
+Carga terminada - recuento de registros lógicos 5.
+
+Tabla CHANNELS:
+  5 Filas cargadas correctamente.
+
+Consulte el archivo log:
+  logchan_v3.log
+para obtener más información sobre la carga.
+
+
+loading SALES  using:
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/sale_v3.ctl
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/sale1v3.dat
+logsale1v3.log
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Jue Jun 18 15:16:39 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Ruta de acceso utilizada:      Directa
+Punto de grabación de datos alcanzado - recuento de registros lógicos 100000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 200000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 300000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 400000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 500000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 600000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 700000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 800000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 900000.
+
+Carga terminada - recuento de registros lógicos 916039.
+
+Tabla SALES:
+  916039 Filas cargadas correctamente.
+
+Consulte el archivo log:
+  logsale1v3.log
+para obtener más información sobre la carga.
+
+
+loading COSTS using external table
+
+
+Table SALES_TRANSACTIONS_EXT creado.
+
+
+Error que empieza en la línea : 280 Archivo @ E:\Repositorios\Oracle\db-sample-schemas\sales_history\lsh_v3.sql
+del comando -
+INSERT /*+ append */ INTO costs 
+( prod_id,
+  time_id,
+  channel_id,
+  promo_id,
+  unit_cost,
+  unit_price )
+SELECT 
+  prod_id,
+  time_id,
+  channel_id,
+  promo_id,
+  AVG(unit_cost),
+  AVG(amount_sold/quantity_sold)
+FROM 
+  sales_transactions_ext
+GROUP BY 
+  prod_id,
+  time_id,
+  channel_id,
+  promo_id
+Informe de error -
+ORA-29913: error in executing ODCIEXTTABLEOPEN callout
+ORA-29400: data cartridge error
+KUP-04001: error opening file log\ext_1v3.log
+
+
+loading additonal SALES using:
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/dmsal_v3.ctl
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/dmsal_v3.dat
+logdmsal_v3.log
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Jue Jun 18 15:16:46 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Ruta de acceso utilizada:      Directa
+Punto de grabación de datos alcanzado - recuento de registros lógicos 100.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 200.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 300.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 400.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 500.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 600.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 700.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 800.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 900.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1100.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1200.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1300.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1400.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1500.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1600.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1700.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1800.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1900.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2100.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2200.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2300.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2400.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2500.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2600.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2700.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2800.
+
+Carga terminada - recuento de registros lógicos 2804.
+
+Tabla SALES:
+  2804 Filas cargadas correctamente.
+
+Consulte el archivo log:
+  logdmsal_v3.log
+para obtener más información sobre la carga.
+
+
+loading SUPPLEMENTARY DEMOGRAPHICS using:
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/dem_v3.ctl
+E:/Repositorios/Oracle/db-sample-schemas/sales_history/dem1v3.dat
+logdem1v3.log
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Jue Jun 18 15:16:47 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Ruta de acceso utilizada:      Directa
+Punto de grabación de datos alcanzado - recuento de registros lógicos 10.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 20.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 30.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 40.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 50.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 60.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 70.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 80.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 90.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 100.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 110.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 120.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 130.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 140.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 150.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 160.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 170.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 180.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 190.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 200.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 210.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 220.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 230.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 240.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 250.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 260.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 270.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 280.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 290.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 300.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 310.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 320.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 330.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 340.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 350.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 360.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 370.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 380.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 390.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 400.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 410.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 420.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 430.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 440.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 450.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 460.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 470.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 480.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 490.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 500.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 510.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 520.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 530.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 540.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 550.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 560.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 570.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 580.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 590.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 600.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 610.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 620.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 630.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 640.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 650.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 660.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 670.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 680.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 690.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 700.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 710.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 720.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 730.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 740.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 750.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 760.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 770.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 780.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 790.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 800.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 810.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 820.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 830.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 840.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 850.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 860.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 870.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 880.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 890.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 900.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 910.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 920.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 930.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 940.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 950.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 960.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 970.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 980.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 990.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1010.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1020.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1030.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1040.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1050.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1060.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1070.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1080.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1090.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1100.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1110.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1120.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1130.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1140.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1150.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1160.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1170.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1180.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1190.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1200.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1210.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1220.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1230.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1240.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1250.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1260.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1270.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1280.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1290.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1300.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1310.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1320.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1330.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1340.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1350.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1360.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1370.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1380.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1390.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1400.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1410.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1420.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1430.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1440.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1450.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1460.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1470.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1480.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1490.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1500.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1510.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1520.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1530.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1540.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1550.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1560.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1570.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1580.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1590.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1600.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1610.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1620.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1630.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1640.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1650.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1660.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1670.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1680.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1690.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1700.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1710.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1720.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1730.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1740.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1750.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1760.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1770.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1780.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1790.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1800.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1810.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1820.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1830.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1840.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1850.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1860.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1870.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1880.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1890.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1900.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1910.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1920.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1930.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1940.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1950.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1960.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1970.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1980.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 1990.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2010.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2020.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2030.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2040.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2050.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2060.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2070.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2080.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2090.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2100.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2110.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2120.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2130.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2140.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2150.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2160.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2170.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2180.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2190.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2200.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2210.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2220.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2230.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2240.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2250.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2260.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2270.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2280.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2290.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2300.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2310.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2320.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2330.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2340.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2350.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2360.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2370.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2380.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2390.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2400.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2410.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2420.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2430.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2440.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2450.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2460.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2470.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2480.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2490.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2500.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2510.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2520.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2530.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2540.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2550.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2560.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2570.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2580.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2590.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2600.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2610.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2620.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2630.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2640.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2650.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2660.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2670.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2680.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2690.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2700.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2710.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2720.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2730.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2740.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2750.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2760.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2770.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2780.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2790.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2800.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2810.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2820.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2830.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2840.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2850.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2860.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2870.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2880.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2890.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2900.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2910.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2920.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2930.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2940.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2950.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2960.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2970.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2980.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 2990.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3010.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3020.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3030.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3040.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3050.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3060.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3070.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3080.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3090.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3100.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3110.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3120.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3130.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3140.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3150.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3160.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3170.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3180.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3190.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3200.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3210.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3220.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3230.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3240.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3250.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3260.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3270.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3280.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3290.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3300.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3310.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3320.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3330.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3340.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3350.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3360.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3370.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3380.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3390.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3400.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3410.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3420.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3430.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3440.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3450.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3460.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3470.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3480.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3490.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3500.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3510.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3520.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3530.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3540.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3550.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3560.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3570.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3580.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3590.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3600.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3610.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3620.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3630.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3640.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3650.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3660.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3670.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3680.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3690.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3700.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3710.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3720.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3730.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3740.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3750.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3760.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3770.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3780.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3790.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3800.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3810.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3820.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3830.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3840.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3850.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3860.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3870.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3880.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3890.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3900.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3910.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3920.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3930.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3940.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3950.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3960.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3970.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3980.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 3990.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4000.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4010.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4020.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4030.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4040.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4050.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4060.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4070.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4080.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4090.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4100.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4110.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4120.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4130.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4140.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4150.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4160.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4170.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4180.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4190.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4200.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4210.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4220.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4230.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4240.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4250.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4260.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4270.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4280.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4290.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4300.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4310.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4320.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4330.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4340.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4350.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4360.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4370.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4380.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4390.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4400.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4410.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4420.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4430.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4440.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4450.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4460.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4470.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4480.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4490.
+Punto de grabación de datos alcanzado - recuento de registros lógicos 4500.
+
+Carga terminada - recuento de registros lógicos 4500.
+
+Tabla SUPPLEMENTARY_DEMOGRAPHICS:
+  4500 Filas cargadas correctamente.
+
+Consulte el archivo log:
+  logdem1v3.log
+para obtener más información sobre la carga.
+
+Confirmación terminada.
+
+Enabling constraints ...
+
+Table PROMOTIONS alterado.
+
+
+Table SALES alterado.
+
+
+Table CUSTOMERS alterado.
+
+
+Table SALES alterado.
+
+
+Table PRODUCTS alterado.
+
+
+Table SALES alterado.
+
+
+Table COSTS alterado.
+
+
+Table TIMES alterado.
+
+
+Table SALES alterado.
+
+
+Table COSTS alterado.
+
+
+Table CHANNELS alterado.
+
+
+Table SALES alterado.
+
+
+Table COUNTRIES alterado.
+
+
+Table CUSTOMERS alterado.
+
+
+Creating additional indexes ...
+
+INDEX SALES_PROD_BIX creado.
+
+
+INDEX SALES_CUST_BIX creado.
+
+
+INDEX SALES_TIME_BIX creado.
+
+
+INDEX SALES_CHANNEL_BIX creado.
+
+
+INDEX SALES_PROMO_BIX creado.
+
+
+Index SUP_TEXT_IDX creado.
+
+
+INDEX COSTS_PROD_BIX creado.
+
+
+INDEX COSTS_TIME_BIX creado.
+
+
+INDEX PRODUCTS_PROD_STATUS_BIX creado.
+
+
+Index PRODUCTS_PROD_SUBCAT_IX creado.
+
+
+Index PRODUCTS_PROD_CAT_IX creado.
+
+
+INDEX CUSTOMERS_GENDER_BIX creado.
+
+
+INDEX CUSTOMERS_MARITAL_BIX creado.
+
+
+INDEX CUSTOMERS_YOB_BIX creado.
+
+
+Create dimensions ...
+
+Dimension CUSTOMERS_DIM creado.
+
+Confirmación terminada.
+
+Dimension PRODUCTS_DIM creado.
+
+
+Dimension TIMES_DIM creado.
+
+
+Dimension CHANNELS_DIM creado.
+
+
+Dimension PROMOTIONS_DIM creado.
+
+Creating MVs as tables ...
+
+
+View PROFITS creado.
+
+
+Table CAL_MONTH_SALES_MV creado.
+
+
+Table FWEEK_PSCAT_SALES_MV creado.
+
+
+INDEX FW_PSC_S_MV_SUBCAT_BIX creado.
+
+
+INDEX FW_PSC_S_MV_CHAN_BIX creado.
+
+
+INDEX FW_PSC_S_MV_PROMO_BIX creado.
+
+
+INDEX FW_PSC_S_MV_WD_BIX creado.
+
+Creating materialized views ...
+
+
+Materialized view CAL_MONTH_SALES_MV creado.
+
+
+Materialized view FWEEK_PSCAT_SALES_MV creado.
+
+
+Creating comments ...
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+Comment creado.
+
+
+gathering statistics ...
+
+Error que empieza en la línea : 710 Archivo @ E:\Repositorios\Oracle\db-sample-schemas\sales_history\psh_v3.sql
+del comando -
+BEGIN dbms_stats.gather_table_stats(         ownname          => 'SH'                     ,         tabname          => 'SALES_TRANSACTIONS_EXT' ,         partname         => NULL                     ,         estimate_percent => NULL                     ,         block_sample     => TRUE                     ,         method_opt       => 'FOR ALL COLUMNS SIZE 1' ,         degree           => NULL                     ,         granularity      => 'ALL'                    ,         cascade          => TRUE                     ,         stattab          => NULL                     ,         statid           => NULL                     ,         statown          => NULL                     ); END;
+Informe de error -
+ORA-29913: error in executing ODCIEXTTABLEOPEN callout
+ORA-06512: at "SYS.DBMS_STATS", line 36873
+ORA-06512: at "SYS.DBMS_STATS", line 36507
+ORA-06512: at "SYS.DBMS_STATS", line 35428
+ORA-06512: at "SYS.DBMS_STATS", line 33883
+ORA-06512: at "SYS.DBMS_STATS", line 28173
+ORA-29400: data cartridge error
+KUP-04001: error opening file log\ext_1v3.log
+ORA-06512: at "SYS.DBMS_SQL", line 1735
+ORA-06512: at "SYS.DBMS_STATS", line 28090
+ORA-06512: at "SYS.DBMS_STATS", line 33632
+ORA-06512: at "SYS.DBMS_STATS", line 35304
+ORA-06512: at "SYS.DBMS_STATS", line 36230
+ORA-06512: at "SYS.DBMS_STATS", line 36716
+ORA-06512: at line 1
+29913. 00000 -  "error in executing %s callout"
+*Cause:    The execution of the specified callout caused an error.
+*Action:   Examine the error messages take appropriate action.
+Procedimiento PL/SQL terminado correctamente.
+Conectado.
+
+specify password for BI as parameter 1:
+
+specify default tablespeace for BI as parameter 2:
+
+specify temporary tablespace for BI as parameter 3:
+
+specify password for SYS as parameter 4:
+
+specify password for OE as parameter 5:
+
+specify password for SH as parameter 6:
+
+specify log path as parameter 7:
+
+specify version as parameter 8:
+
+specify connect string as parameter 9:
+
+Conectado.
+
+User BI creado.
+
+
+User BI alterado.
+
+
+User BI alterado.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+specify password for oe as parameter 1:
+
+specify connect string as parameter 2:
+
+Conectado.
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+Confirmación terminada.
+
+specify password for SH as parameter 1:
+
+specify connect string as parameter 2:
+
+Conectado.
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+
+Grant correcto.
+
+Confirmación terminada.
+
+specify password for BI as parameter 1:
+
+specify connect string as parameter 2:
+
+Conectado.
+
+Synonym CHANNELS creado.
+
+
+Synonym COUNTRIES creado.
+
+
+Synonym TIMES creado.
+
+
+Synonym COSTS creado.
+
+
+Synonym CUSTOMERS creado.
+
+
+Synonym PRODUCTS creado.
+
+
+Synonym PROMOTIONS creado.
+
+
+Synonym SALES creado.
+
+Confirmación terminada.
+SQL> COLUMN TABLE_NAME FORMAT A25
+SQL> COLUMN COLUMN_NAME FORMAT A30
+SQL> 
+SQL> CONNECT bi/&pwd_bi@&connect_string;
+Conectado.
+SQL> 
+SQL> SELECT COUNT(*) FROM customers;
+
+  COUNT(*)
+----------
+     55500
+
+1 fila seleccionada. 
+
+SQL> SELECT COUNT(*) FROM products;
+
+  COUNT(*)
+----------
+        72
+
+1 fila seleccionada. 
+
+SQL> SELECT COUNT(*) FROM promotions;
+
+  COUNT(*)
+----------
+       503
+
+1 fila seleccionada. 
+
+SQL> SELECT COUNT(*) FROM sales;
+
+  COUNT(*)
+----------
+    918843
+
+1 fila seleccionada. 
+
+SQL> SELECT COUNT(*) FROM costs;
+
+  COUNT(*)
+----------
+         0
+
+1 fila seleccionada. 
+
+SQL> 
+SQL> SELECT COUNT(*) FROM sh.cal_month_sales_mv;
+
+  COUNT(*)
+----------
+        48
+
+1 fila seleccionada. 
+
+SQL> SELECT COUNT(*) FROM sh.fweek_pscat_sales_mv;
+
+  COUNT(*)
+----------
+     11266
+
+1 fila seleccionada. 
+
+SQL> 
+SQL> SELECT COUNT(*) FROM channels;
+
+  COUNT(*)
+----------
+         5
+
+1 fila seleccionada. 
+
+SQL> SELECT COUNT(*) FROM countries;
+
+  COUNT(*)
+----------
+        23
+
+1 fila seleccionada. 
+
+SQL> SELECT COUNT(*) FROM times;
+
+  COUNT(*)
+----------
+      1826
+
+1 fila seleccionada. 
+
+SQL> 
+SQL> SET ECHO OFF
+Conectado.
+
+specify password for SYSTEM as parameter 1:
+
+specify spool filename as parameter 2:
+
+specify connect string as parameter 3:
+
+Conectado.
+
+Table OE.CATEGORIES_TAB analizado.
+
+
+Table OE.PRODUCT_REF_LIST_NESTEDTAB analizado.
+
+
+Table OE.SUBCATEGORY_REF_LIST_NESTEDTAB analizado.
+
+
+Table OE.PURCHASEORDER analizado.
+
+
+Table PM.TEXTDOCS_NESTEDTAB analizado.
+
+
+All named objects and stati
+
+OWNER  OBJECT_TYPE          OBJECT_NAME                    SUBOBJECT_NAME   STATUS  
+------ -------------------- ------------------------------ ---------------- --------
+BI     SYNONYM              CHANNELS                                        VALID   
+BI     SYNONYM              COSTS                                           VALID   
+BI     SYNONYM              COUNTRIES                                       VALID   
+BI     SYNONYM              CUSTOMERS                                       VALID   
+BI     SYNONYM              PRODUCTS                                        VALID   
+BI     SYNONYM              PROMOTIONS                                      VALID   
+BI     SYNONYM              SALES                                           VALID   
+BI     SYNONYM              TIMES                                           VALID   
+HR     INDEX                COUNTRY_C_ID_PK                                 VALID   
+HR     INDEX                DEPT_ID_PK                                      VALID   
+HR     INDEX                DEPT_LOCATION_IX                                VALID   
+HR     INDEX                EMP_DEPARTMENT_IX                               VALID   
+HR     INDEX                EMP_EMAIL_UK                                    VALID   
+HR     INDEX                EMP_EMP_ID_PK                                   VALID   
+HR     INDEX                EMP_JOB_IX                                      VALID   
+HR     INDEX                EMP_MANAGER_IX                                  VALID   
+HR     INDEX                EMP_NAME_IX                                     VALID   
+HR     INDEX                JHIST_DEPARTMENT_IX                             VALID   
+HR     INDEX                JHIST_EMP_ID_ST_DATE_PK                         VALID   
+HR     INDEX                JHIST_EMPLOYEE_IX                               VALID   
+HR     INDEX                JHIST_JOB_IX                                    VALID   
+HR     INDEX                JOB_ID_PK                                       VALID   
+HR     INDEX                LOC_CITY_IX                                     VALID   
+HR     INDEX                LOC_COUNTRY_IX                                  VALID   
+HR     INDEX                LOC_ID_PK                                       VALID   
+HR     INDEX                LOC_STATE_PROVINCE_IX                           VALID   
+HR     INDEX                REG_ID_PK                                       VALID   
+HR     PROCEDURE            ADD_JOB_HISTORY                                 VALID   
+HR     PROCEDURE            SECURE_DML                                      VALID   
+HR     SEQUENCE             DEPARTMENTS_SEQ                                 VALID   
+HR     SEQUENCE             EMPLOYEES_SEQ                                   VALID   
+HR     SEQUENCE             LOCATIONS_SEQ                                   VALID   
+HR     TABLE                COUNTRIES                                       VALID   
+HR     TABLE                DEPARTMENTS                                     VALID   
+HR     TABLE                EMPLOYEES                                       VALID   
+HR     TABLE                JOB_HISTORY                                     VALID   
+HR     TABLE                JOBS                                            VALID   
+HR     TABLE                LOCATIONS                                       VALID   
+HR     TABLE                REGIONS                                         VALID   
+HR     TRIGGER              SECURE_EMPLOYEES                                VALID   
+HR     TRIGGER              UPDATE_JOB_HISTORY                              VALID   
+HR     VIEW                 EMP_DETAILS_VIEW                                VALID   
+IX     EVALUATION CONTEXT   AQ$_ORDERS_QUEUETABLE_V                         VALID   
+IX     EVALUATION CONTEXT   AQ$_STREAMS_QUEUE_TABLE_V                       VALID   
+IX     INDEX                AQ$_STREAMS_QUEUE_TABLE_Y                       VALID   
+IX     QUEUE                AQ$_ORDERS_QUEUETABLE_E                         VALID   
+IX     QUEUE                AQ$_STREAMS_QUEUE_TABLE_E                       VALID   
+IX     QUEUE                ORDERS_QUEUE                                    VALID   
+IX     QUEUE                STREAMS_QUEUE                                   VALID   
+IX     RULE SET             ORDERS_QUEUE_N                                  VALID   
+IX     RULE SET             ORDERS_QUEUE_R                                  VALID   
+IX     RULE SET             STREAMS_QUEUE_N                                 VALID   
+IX     RULE SET             STREAMS_QUEUE_R                                 VALID   
+IX     SEQUENCE             AQ$_ORDERS_QUEUETABLE_N                         VALID   
+IX     SEQUENCE             AQ$_STREAMS_QUEUE_TABLE_N                       VALID   
+IX     TABLE                AQ$_ORDERS_QUEUETABLE_G                         VALID   
+IX     TABLE                AQ$_ORDERS_QUEUETABLE_H                         VALID   
+IX     TABLE                AQ$_ORDERS_QUEUETABLE_I                         VALID   
+IX     TABLE                AQ$_ORDERS_QUEUETABLE_L                         VALID   
+IX     TABLE                AQ$_ORDERS_QUEUETABLE_S                         VALID   
+IX     TABLE                AQ$_ORDERS_QUEUETABLE_T                         VALID   
+IX     TABLE                AQ$_STREAMS_QUEUE_TABLE_C                       VALID   
+IX     TABLE                AQ$_STREAMS_QUEUE_TABLE_G                       VALID   
+IX     TABLE                AQ$_STREAMS_QUEUE_TABLE_H                       VALID   
+IX     TABLE                AQ$_STREAMS_QUEUE_TABLE_I                       VALID   
+IX     TABLE                AQ$_STREAMS_QUEUE_TABLE_L                       VALID   
+IX     TABLE                AQ$_STREAMS_QUEUE_TABLE_S                       VALID   
+IX     TABLE                AQ$_STREAMS_QUEUE_TABLE_T                       VALID   
+IX     TABLE                ORDERS_QUEUETABLE                               VALID   
+IX     TABLE                STREAMS_QUEUE_TABLE                             VALID   
+IX     TYPE                 ORDER_EVENT_TYP                                 VALID   
+IX     VIEW                 AQ$ORDERS_QUEUETABLE                            VALID   
+IX     VIEW                 AQ$_ORDERS_QUEUETABLE_F                         VALID   
+IX     VIEW                 AQ$ORDERS_QUEUETABLE_R                          VALID   
+IX     VIEW                 AQ$ORDERS_QUEUETABLE_S                          VALID   
+IX     VIEW                 AQ$STREAMS_QUEUE_TABLE                          VALID   
+IX     VIEW                 AQ$_STREAMS_QUEUE_TABLE_F                       VALID   
+IX     VIEW                 AQ$STREAMS_QUEUE_TABLE_R                        VALID   
+IX     VIEW                 AQ$STREAMS_QUEUE_TABLE_S                        VALID   
+OE     FUNCTION             GET_PHONE_NUMBER_F                              VALID   
+OE     INDEX                ACTION_TABLE_MEMBERS                            VALID   
+OE     INDEX                CUST_ACCOUNT_MANAGER_IX                         VALID   
+OE     INDEX                CUST_EMAIL_IX                                   VALID   
+OE     INDEX                CUST_LNAME_IX                                   VALID   
+OE     INDEX                CUSTOMERS_PK                                    VALID   
+OE     INDEX                CUST_UPPER_NAME_IX                              VALID   
+OE     INDEX                INVENTORY_IX                                    VALID   
+OE     INDEX                INV_PRODUCT_IX                                  VALID   
+OE     INDEX                ITEM_ORDER_IX                                   VALID   
+OE     INDEX                ITEM_PRODUCT_IX                                 VALID   
+OE     INDEX                LINEITEM_TABLE_MEMBERS                          VALID   
+OE     INDEX                ORD_CUSTOMER_IX                                 VALID   
+OE     INDEX                ORDER_ITEMS_PK                                  VALID   
+OE     INDEX                ORDER_ITEMS_UK                                  VALID   
+OE     INDEX                ORDER_PK                                        VALID   
+OE     INDEX                ORD_ORDER_DATE_IX                               VALID   
+OE     INDEX                ORD_SALES_REP_IX                                VALID   
+OE     INDEX                PRD_DESC_PK                                     VALID   
+OE     INDEX                PROD_NAME_IX                                    VALID   
+OE     INDEX                PROD_SUPPLIER_IX                                VALID   
+OE     INDEX                PRODUCT_INFORMATION_PK                          VALID   
+OE     INDEX                PROMO_ID_PK                                     VALID   
+OE     INDEX                WAREHOUSES_PK                                   VALID   
+OE     INDEX                WHS_LOCATION_IX                                 VALID   
+OE     LOB                  EXTRADATA133_L                                  VALID   
+OE     LOB                  NAMESPACES134_L                                 VALID   
+OE     SEQUENCE             ORDERS_SEQ                                      VALID   
+OE     SYNONYM              COUNTRIES                                       VALID   
+OE     SYNONYM              DEPARTMENTS                                     VALID   
+OE     SYNONYM              EMPLOYEES                                       VALID   
+OE     SYNONYM              JOB_HISTORY                                     VALID   
+OE     SYNONYM              JOBS                                            VALID   
+OE     SYNONYM              LOCATIONS                                       VALID   
+OE     TABLE                ACTION_TABLE                                    VALID   
+OE     TABLE                CATEGORIES_TAB                                  VALID   
+OE     TABLE                CUSTOMERS                                       VALID   
+OE     TABLE                INVENTORIES                                     VALID   
+OE     TABLE                LINEITEM_TABLE                                  VALID   
+OE     TABLE                ORDER_ITEMS                                     VALID   
+OE     TABLE                ORDERS                                          VALID   
+OE     TABLE                PRODUCT_DESCRIPTIONS                            VALID   
+OE     TABLE                PRODUCT_INFORMATION                             VALID   
+OE     TABLE                PRODUCT_REF_LIST_NESTEDTAB                      VALID   
+OE     TABLE                PROMOTIONS                                      VALID   
+OE     TABLE                PURCHASEORDER                                   VALID   
+OE     TABLE                SUBCATEGORY_REF_LIST_NESTEDTAB                  VALID   
+OE     TABLE                WAREHOUSES                                      VALID   
+OE     TRIGGER              INSERT_ORD_LINE                                 VALID   
+OE     TRIGGER              ORDERS_ITEMS_TRG                                VALID   
+OE     TRIGGER              ORDERS_TRG                                      VALID   
+OE     TRIGGER              PURCHASEORDER$xd                                VALID   
+OE     TYPE                 ACTIONS_T                                       VALID   
+OE     TYPE                 ACTION_T                                        VALID   
+OE     TYPE                 ACTION_V                                        VALID   
+OE     TYPE                 CATALOG_TYP                    $VSN_1           VALID   
+OE     TYPE                 CATALOG_TYP                                     VALID   
+OE     TYPE                 CATEGORY_TYP                   $VSN_1           VALID   
+OE     TYPE                 CATEGORY_TYP                                    VALID   
+OE     TYPE                 COMPOSITE_CATEGORY_TYP         $VSN_1           VALID   
+OE     TYPE                 COMPOSITE_CATEGORY_TYP                          VALID   
+OE     TYPE                 CORPORATE_CUSTOMER_TYP                          VALID   
+OE     TYPE                 CUST_ADDRESS_TYP                                VALID   
+OE     TYPE                 CUSTOMER_TYP                                    VALID   
+OE     TYPE                 INVENTORY_LIST_TYP                              VALID   
+OE     TYPE                 INVENTORY_TYP                                   VALID   
+OE     TYPE                 LEAF_CATEGORY_TYP              $VSN_1           VALID   
+OE     TYPE                 LEAF_CATEGORY_TYP                               VALID   
+OE     TYPE                 LINEITEMS_T                                     VALID   
+OE     TYPE                 LINEITEM_T                                      VALID   
+OE     TYPE                 LINEITEM_V                                      VALID   
+OE     TYPE                 ORDER_ITEM_LIST_TYP                             VALID   
+OE     TYPE                 ORDER_ITEM_TYP                                  VALID   
+OE     TYPE                 ORDER_LIST_TYP                                  VALID   
+OE     TYPE                 ORDER_TYP                                       VALID   
+OE     TYPE                 PART_T                                          VALID   
+OE     TYPE                 PHONE_LIST_TYP                                  VALID   
+OE     TYPE                 PRODUCT_INFORMATION_TYP                         VALID   
+OE     TYPE                 PRODUCT_REF_LIST_TYP                            VALID   
+OE     TYPE                 PURCHASEORDER_T                                 VALID   
+OE     TYPE                 REJECTION_T                                     VALID   
+OE     TYPE                 SHIPPING_INSTRUCTIONS_T                         VALID   
+OE     TYPE                 SUBCATEGORY_REF_LIST_TYP                        VALID   
+OE     TYPE                 WAREHOUSE_TYP                                   VALID   
+OE     TYPE BODY            CATALOG_TYP                                     VALID   
+OE     TYPE BODY            COMPOSITE_CATEGORY_TYP                          VALID   
+OE     TYPE BODY            LEAF_CATEGORY_TYP                               VALID   
+OE     VIEW                 ACCOUNT_MANAGERS                                VALID   
+OE     VIEW                 BOMBAY_INVENTORY                                VALID   
+OE     VIEW                 CUSTOMERS_VIEW                                  VALID   
+OE     VIEW                 OC_CORPORATE_CUSTOMERS                          VALID   
+OE     VIEW                 OC_CUSTOMERS                                    VALID   
+OE     VIEW                 OC_INVENTORIES                                  VALID   
+OE     VIEW                 OC_ORDERS                                       VALID   
+OE     VIEW                 OC_PRODUCT_INFORMATION                          VALID   
+OE     VIEW                 ORDERS_VIEW                                     VALID   
+OE     VIEW                 PRODUCT_PRICES                                  VALID   
+OE     VIEW                 PRODUCTS                                        VALID   
+OE     VIEW                 SYDNEY_INVENTORY                                VALID   
+OE     VIEW                 TORONTO_INVENTORY                               VALID   
+PM     INDEX                PRINTMEDIA_PK                                   VALID   
+PM     TABLE                PRINT_MEDIA                                     VALID   
+PM     TABLE                TEXTDOCS_NESTEDTAB                              VALID   
+PM     TYPE                 ADHEADER_TYP                                    VALID   
+PM     TYPE                 TEXTDOC_TAB                                     VALID   
+PM     TYPE                 TEXTDOC_TYP                                     VALID   
+SH     DIMENSION            CHANNELS_DIM                                    VALID   
+SH     DIMENSION            CUSTOMERS_DIM                                   VALID   
+SH     DIMENSION            PRODUCTS_DIM                                    VALID   
+SH     DIMENSION            PROMOTIONS_DIM                                  VALID   
+SH     DIMENSION            TIMES_DIM                                       VALID   
+SH     INDEX                CHANNELS_PK                                     VALID   
+SH     INDEX                COSTS_PROD_BIX                                  VALID   
+SH     INDEX                COSTS_TIME_BIX                                  VALID   
+SH     INDEX                COUNTRIES_PK                                    VALID   
+SH     INDEX                CUSTOMERS_GENDER_BIX                            VALID   
+SH     INDEX                CUSTOMERS_MARITAL_BIX                           VALID   
+SH     INDEX                CUSTOMERS_PK                                    VALID   
+SH     INDEX                CUSTOMERS_YOB_BIX                               VALID   
+SH     INDEX                DR$SUP_TEXT_IDX$RC                              VALID   
+SH     INDEX                DR$SUP_TEXT_IDX$X                               VALID   
+SH     INDEX                FW_PSC_S_MV_CHAN_BIX                            VALID   
+SH     INDEX                FW_PSC_S_MV_PROMO_BIX                           VALID   
+SH     INDEX                FW_PSC_S_MV_SUBCAT_BIX                          VALID   
+SH     INDEX                FW_PSC_S_MV_WD_BIX                              VALID   
+SH     INDEX                PRODUCTS_PK                                     VALID   
+SH     INDEX                PRODUCTS_PROD_CAT_IX                            VALID   
+SH     INDEX                PRODUCTS_PROD_STATUS_BIX                        VALID   
+SH     INDEX                PRODUCTS_PROD_SUBCAT_IX                         VALID   
+SH     INDEX                PROMO_PK                                        VALID   
+SH     INDEX                SALES_CHANNEL_BIX                               VALID   
+SH     INDEX                SALES_CUST_BIX                                  VALID   
+SH     INDEX                SALES_PROD_BIX                                  VALID   
+SH     INDEX                SALES_PROMO_BIX                                 VALID   
+SH     INDEX                SALES_TIME_BIX                                  VALID   
+SH     INDEX                SUP_TEXT_IDX                                    VALID   
+SH     INDEX                TIMES_PK                                        VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_H1_1997    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_H2_1997    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q1_1998    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q1_1999    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q1_2000    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q1_2001    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q1_2002    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q1_2003    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q2_1998    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q2_1999    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q2_2000    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q2_2001    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q2_2002    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q2_2003    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q3_1998    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q3_1999    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q3_2000    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q3_2001    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q3_2002    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q3_2003    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q4_1998    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q4_1999    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q4_2000    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q4_2001    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q4_2002    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_Q4_2003    VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_1995       VALID   
+SH     INDEX PARTITION      COSTS_PROD_BIX                 COSTS_1996       VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_H1_1997    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_H2_1997    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q1_1998    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q1_1999    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q1_2000    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q1_2001    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q1_2002    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q1_2003    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q2_1998    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q2_1999    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q2_2000    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q2_2001    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q2_2002    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q2_2003    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q3_1998    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q3_1999    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q3_2000    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q3_2001    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q3_2002    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q3_2003    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q4_1998    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q4_1999    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q4_2000    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q4_2001    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q4_2002    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_Q4_2003    VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_1995       VALID   
+SH     INDEX PARTITION      COSTS_TIME_BIX                 COSTS_1996       VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_H1_1997    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_H2_1997    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q1_1998    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q1_1999    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q1_2000    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q1_2001    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q1_2002    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q1_2003    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q2_1998    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q2_1999    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q2_2000    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q2_2001    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q2_2002    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q2_2003    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q3_1998    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q3_1999    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q3_2000    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q3_2001    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q3_2002    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q3_2003    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q4_1998    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q4_1999    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q4_2000    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q4_2001    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q4_2002    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_Q4_2003    VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_1995       VALID   
+SH     INDEX PARTITION      SALES_CHANNEL_BIX              SALES_1996       VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_H1_1997    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_H2_1997    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q1_1998    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q1_1999    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q1_2000    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q1_2001    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q1_2002    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q1_2003    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q2_1998    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q2_1999    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q2_2000    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q2_2001    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q2_2002    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q2_2003    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q3_1998    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q3_1999    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q3_2000    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q3_2001    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q3_2002    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q3_2003    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q4_1998    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q4_1999    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q4_2000    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q4_2001    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q4_2002    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_Q4_2003    VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_1995       VALID   
+SH     INDEX PARTITION      SALES_CUST_BIX                 SALES_1996       VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_H1_1997    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_H2_1997    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q1_1998    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q1_1999    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q1_2000    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q1_2001    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q1_2002    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q1_2003    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q2_1998    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q2_1999    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q2_2000    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q2_2001    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q2_2002    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q2_2003    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q3_1998    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q3_1999    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q3_2000    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q3_2001    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q3_2002    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q3_2003    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q4_1998    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q4_1999    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q4_2000    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q4_2001    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q4_2002    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_Q4_2003    VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_1995       VALID   
+SH     INDEX PARTITION      SALES_PROD_BIX                 SALES_1996       VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_H1_1997    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_H2_1997    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q1_1998    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q1_1999    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q1_2000    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q1_2001    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q1_2002    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q1_2003    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q2_1998    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q2_1999    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q2_2000    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q2_2001    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q2_2002    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q2_2003    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q3_1998    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q3_1999    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q3_2000    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q3_2001    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q3_2002    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q3_2003    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q4_1998    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q4_1999    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q4_2000    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q4_2001    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q4_2002    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_Q4_2003    VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_1995       VALID   
+SH     INDEX PARTITION      SALES_PROMO_BIX                SALES_1996       VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_H1_1997    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_H2_1997    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q1_1998    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q1_1999    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q1_2000    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q1_2001    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q1_2002    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q1_2003    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q2_1998    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q2_1999    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q2_2000    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q2_2001    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q2_2002    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q2_2003    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q3_1998    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q3_1999    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q3_2000    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q3_2001    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q3_2002    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q3_2003    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q4_1998    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q4_1999    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q4_2000    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q4_2001    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q4_2002    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_Q4_2003    VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_1995       VALID   
+SH     INDEX PARTITION      SALES_TIME_BIX                 SALES_1996       VALID   
+SH     MATERIALIZED VIEW    CAL_MONTH_SALES_MV                              VALID   
+SH     MATERIALIZED VIEW    FWEEK_PSCAT_SALES_MV                            VALID   
+SH     TABLE                CAL_MONTH_SALES_MV                              VALID   
+SH     TABLE                CHANNELS                                        VALID   
+SH     TABLE                COSTS                                           VALID   
+SH     TABLE                COUNTRIES                                       VALID   
+SH     TABLE                CUSTOMERS                                       VALID   
+SH     TABLE                DR$SUP_TEXT_IDX$I                               VALID   
+SH     TABLE                DR$SUP_TEXT_IDX$K                               VALID   
+SH     TABLE                DR$SUP_TEXT_IDX$N                               VALID   
+SH     TABLE                DR$SUP_TEXT_IDX$R                               VALID   
+SH     TABLE                DR$SUP_TEXT_IDX$U                               VALID   
+SH     TABLE                FWEEK_PSCAT_SALES_MV                            VALID   
+SH     TABLE                PRODUCTS                                        VALID   
+SH     TABLE                PROMOTIONS                                      VALID   
+SH     TABLE                SALES                                           VALID   
+SH     TABLE                SALES_TRANSACTIONS_EXT                          VALID   
+SH     TABLE                SUPPLEMENTARY_DEMOGRAPHICS                      VALID   
+SH     TABLE                TIMES                                           VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_H1_1997    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_H2_1997    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q1_1998    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q1_1999    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q1_2000    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q1_2001    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q1_2002    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q1_2003    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q2_1998    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q2_1999    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q2_2000    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q2_2001    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q2_2002    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q2_2003    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q3_1998    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q3_1999    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q3_2000    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q3_2001    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q3_2002    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q3_2003    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q4_1998    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q4_1999    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q4_2000    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q4_2001    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q4_2002    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_Q4_2003    VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_1995       VALID   
+SH     TABLE PARTITION      COSTS                          COSTS_1996       VALID   
+SH     TABLE PARTITION      SALES                          SALES_H1_1997    VALID   
+SH     TABLE PARTITION      SALES                          SALES_H2_1997    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q1_1998    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q1_1999    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q1_2000    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q1_2001    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q1_2002    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q1_2003    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q2_1998    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q2_1999    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q2_2000    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q2_2001    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q2_2002    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q2_2003    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q3_1998    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q3_1999    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q3_2000    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q3_2001    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q3_2002    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q3_2003    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q4_1998    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q4_1999    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q4_2000    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q4_2001    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q4_2002    VALID   
+SH     TABLE PARTITION      SALES                          SALES_Q4_2003    VALID   
+SH     TABLE PARTITION      SALES                          SALES_1995       VALID   
+SH     TABLE PARTITION      SALES                          SALES_1996       VALID   
+SH     VIEW                 PROFITS                                         VALID   
+
+488 filas seleccionadas. 
+
+
+Data types used
+
+OWNER  DATA_TYPE                           DATA_TYPE_OWNER  DAT   COUNT(*)
+------ ----------------------------------- ---------------- --- ----------
+PM     ADHEADER_TYP                        PM                            1
+IX     ANYDATA                             SYS                           7
+IX     AQ$_SIG_PROP                        SYS                           4
+PM     BFILE                                                             1
+PM     BLOB                                                              2
+SH     BLOB                                                              2
+HR     CHAR                                                              3
+IX     CHAR                                                              2
+OE     CHAR                                                              2
+SH     CHAR                                                              5
+IX     CLOB                                                              2
+PM     CLOB                                                              2
+OE     CUST_ADDRESS_TYP                    OE                            3
+OE     CUSTOMER_TYP                        OE               REF          1
+HR     DATE                                                              3
+IX     DATE                                                              6
+OE     DATE                                                              2
+SH     DATE                                                             19
+OE     INTERVAL YEAR(2) TO MONTH                                         3
+OE     INVENTORY_LIST_TYP                  OE                            1
+PM     NCLOB                                                             1
+HR     NUMBER                                                           21
+IX     NUMBER                                                          107
+OE     NUMBER                                                           80
+PM     NUMBER                                                            2
+SH     NUMBER                                                          101
+OE     NVARCHAR2                                                         7
+IX     ORDER_EVENT_TYP                     IX                            3
+OE     ORDER_ITEM_LIST_TYP                 OE                            1
+OE     ORDER_LIST_TYP                      OE                            2
+OE     PHONE_LIST_TYP                      OE                            3
+IX     RAW                                                              32
+IX     ROWID                                                             6
+SH     ROWID                                                             2
+OE     SDO_GEOMETRY                        MDSYS                         2
+PM     TEXTDOC_TAB                         PM                            1
+IX     TIMESTAMP(6)                                                     25
+OE     TIMESTAMP(6) WITH LOCAL TIME ZONE                                 1
+IX     TIMESTAMP(6) WITH TIME ZONE                                       8
+IX     TIMESTAMP(9)                                                      2
+HR     VARCHAR2                                                         24
+IX     VARCHAR2                                                        128
+OE     VARCHAR2                                                         53
+SH     VARCHAR2                                                         47
+OE     WAREHOUSE_TYP                       OE                            1
+OE     XMLTYPE                             SYS                           2
+
+46 filas seleccionadas. 
+
+
+XML tables
+
+OWNER  TABLE_NAME                     SCHEMA_OWNER     STORAGE_TYPE        
+------ ------------------------------ ---------------- --------------------
+OE     PURCHASEORDER                  OE               OBJECT-RELATIONAL   
+
+1 fila seleccionada. 
+
+
+All objects named 'SYS%' (LOBs etc)
+
+OWNER  OBJECT_TYPE          STATUS     COUNT(*)
+------ -------------------- -------- ----------
+IX     INDEX                VALID            16
+OE     INDEX                VALID            24
+PM     INDEX                VALID             9
+SH     INDEX                VALID             5
+IX     LOB                  VALID             3
+OE     LOB                  VALID            13
+PM     LOB                  VALID             7
+SH     LOB                  VALID             2
+IX     TABLE                VALID             2
+OE     TYPE                 VALID             5
+
+10 filas seleccionadas. 
+
+
+All constraints
+
+OWNER  CONSTRAINT_TYPE      STATUS   VALIDATED        GENERATED          COUNT(*)
+------ -------------------- -------- ---------------- ---------------- ----------
+IX     Check or Not Null    ENABLED  VALIDATED        GENERATED NAME            4
+OE     Check or Not Null    ENABLED  VALIDATED        GENERATED NAME            2
+SH     Check or Not Null    ENABLED  VALIDATED        GENERATED NAME          121
+HR     Check or Not Null    ENABLED  VALIDATED        USER NAME                15
+OE     Check or Not Null    ENABLED  VALIDATED        USER NAME                13
+SH     Foreign key          DISABLED NOT VALIDATED    USER NAME                 2
+OE     Foreign key          ENABLED  NOT VALIDATED    USER NAME                 2
+SH     Foreign key          ENABLED  NOT VALIDATED    USER NAME                 8
+HR     Foreign key          ENABLED  VALIDATED        USER NAME                10
+OE     Foreign key          ENABLED  VALIDATED        USER NAME                 7
+PM     Foreign key          ENABLED  VALIDATED        USER NAME                 1
+SH     Primary key          DISABLED NOT VALIDATED    USER NAME                 1
+SH     Primary key          ENABLED  NOT VALIDATED    USER NAME                 6
+IX     Primary key          ENABLED  VALIDATED        GENERATED NAME           13
+OE     Primary key          ENABLED  VALIDATED        GENERATED NAME            3
+SH     Primary key          ENABLED  VALIDATED        GENERATED NAME            3
+HR     Primary key          ENABLED  VALIDATED        USER NAME                 7
+OE     Primary key          ENABLED  VALIDATED        USER NAME                 8
+PM     Primary key          ENABLED  VALIDATED        USER NAME                 1
+SH     Primary key          ENABLED  VALIDATED        USER NAME                 1
+HR     Read only view       ENABLED  NOT VALIDATED    GENERATED NAME            1
+IX     Read only view       ENABLED  NOT VALIDATED    GENERATED NAME            8
+OE     Unique key           ENABLED  VALIDATED        GENERATED NAME            6
+PM     Unique key           ENABLED  VALIDATED        GENERATED NAME            1
+HR     Unique key           ENABLED  VALIDATED        USER NAME                 1
+
+25 filas seleccionadas. 
+
+
+All dimensions
+
+OWNER  DIMENSION_NAME       I COMPILE_STATE
+------ -------------------- - -------------
+SH     CHANNELS_DIM         N VALID        
+SH     CUSTOMERS_DIM        N VALID        
+SH     PRODUCTS_DIM         N VALID        
+SH     PROMOTIONS_DIM       N VALID        
+SH     TIMES_DIM            N VALID        
+
+5 filas seleccionadas. 
+
+
+All granted roles
+
+GRANTED_ROLE              GRANTEE
+------------------------- -------
+AQ_ADMINISTRATOR_ROLE     IX     
+AQ_USER_ROLE              IX     
+CONNECT                   IX     
+CONNECT                   PM     
+RESOURCE                  BI     
+RESOURCE                  HR     
+RESOURCE                  IX     
+RESOURCE                  OE     
+RESOURCE                  PM     
+RESOURCE                  SH     
+SELECT_CATALOG_ROLE       IX     
+SELECT_CATALOG_ROLE       SH     
+XDBADMIN                  OE     
+
+13 filas seleccionadas. 
+
+
+All granted system privileges
+
+PRIVILEGE                 GRANTEE
+------------------------- -------
+ALTER SESSION             BI     
+ALTER SESSION             HR     
+ALTER SESSION             IX     
+ALTER SESSION             SH     
+CREATE CLUSTER            BI     
+CREATE CLUSTER            IX     
+CREATE CLUSTER            SH     
+CREATE DATABASE LINK      BI     
+CREATE DATABASE LINK      HR     
+CREATE DATABASE LINK      IX     
+CREATE DATABASE LINK      OE     
+CREATE DATABASE LINK      SH     
+CREATE DIMENSION          SH     
+CREATE INDEXTYPE          IX     
+CREATE MATERIALIZED VIEW  OE     
+CREATE MATERIALIZED VIEW  SH     
+CREATE OPERATOR           IX     
+CREATE PROCEDURE          IX     
+CREATE RULE               IX     
+CREATE RULE SET           IX     
+CREATE SEQUENCE           BI     
+CREATE SEQUENCE           HR     
+CREATE SEQUENCE           IX     
+CREATE SEQUENCE           SH     
+CREATE SESSION            BI     
+CREATE SESSION            HR     
+CREATE SESSION            IX     
+CREATE SESSION            OE     
+CREATE SESSION            SH     
+CREATE SYNONYM            BI     
+CREATE SYNONYM            HR     
+CREATE SYNONYM            IX     
+CREATE SYNONYM            OE     
+CREATE SYNONYM            SH     
+CREATE TABLE              BI     
+CREATE TABLE              IX     
+CREATE TABLE              SH     
+CREATE TRIGGER            IX     
+CREATE TYPE               IX     
+CREATE VIEW               BI     
+CREATE VIEW               HR     
+CREATE VIEW               IX     
+CREATE VIEW               OE     
+CREATE VIEW               SH     
+QUERY REWRITE             OE     
+QUERY REWRITE             SH     
+SELECT ANY DICTIONARY     IX     
+UNLIMITED TABLESPACE      BI     
+UNLIMITED TABLESPACE      HR     
+UNLIMITED TABLESPACE      IX     
+UNLIMITED TABLESPACE      OE     
+UNLIMITED TABLESPACE      PM     
+UNLIMITED TABLESPACE      SH     
+
+53 filas seleccionadas. 
+
+
+All granted object privileges
+
+OWNER  TABLE_NAME                     PRIVILEGE                 GRANTEE
+------ ------------------------------ ------------------------- -------
+HR     COUNTRIES                      REFERENCES                OE     
+HR     COUNTRIES                      SELECT                    OE     
+HR     DEPARTMENTS                    SELECT                    OE     
+HR     EMPLOYEES                      REFERENCES                OE     
+HR     EMPLOYEES                      SELECT                    OE     
+HR     JOB_HISTORY                    SELECT                    OE     
+HR     JOBS                           SELECT                    OE     
+HR     LOCATIONS                      REFERENCES                OE     
+HR     LOCATIONS                      SELECT                    OE     
+OE     BOMBAY_INVENTORY               SELECT                    BI     
+OE     CUSTOMERS                      SELECT                    BI     
+OE     CUSTOMERS                      SELECT                    PM     
+OE     INVENTORIES                    SELECT                    BI     
+OE     INVENTORIES                    SELECT                    PM     
+OE     ORDER_ITEMS                    SELECT                    BI     
+OE     ORDER_ITEMS                    SELECT                    PM     
+OE     ORDERS                         SELECT                    BI     
+OE     ORDERS                         SELECT                    PM     
+OE     PRODUCT_DESCRIPTIONS           SELECT                    BI     
+OE     PRODUCT_DESCRIPTIONS           SELECT                    PM     
+OE     PRODUCT_INFORMATION            REFERENCES                PM     
+OE     PRODUCT_INFORMATION            SELECT                    BI     
+OE     PRODUCT_INFORMATION            SELECT                    PM     
+OE     PRODUCT_PRICES                 SELECT                    BI     
+OE     PRODUCTS                       SELECT                    BI     
+OE     PROMOTIONS                     SELECT                    BI     
+OE     SYDNEY_INVENTORY               SELECT                    BI     
+OE     TORONTO_INVENTORY              SELECT                    BI     
+OE     WAREHOUSES                     SELECT                    BI     
+OE     WAREHOUSES                     SELECT                    PM     
+SH     CAL_MONTH_SALES_MV             SELECT                    BI     
+SH     CHANNELS                       SELECT                    BI     
+SH     COSTS                          SELECT                    BI     
+SH     COUNTRIES                      SELECT                    BI     
+SH     CUSTOMERS                      SELECT                    BI     
+SH     FWEEK_PSCAT_SALES_MV           SELECT                    BI     
+SH     PRODUCTS                       SELECT                    BI     
+SH     PROMOTIONS                     SELECT                    BI     
+SH     SALES                          SELECT                    BI     
+SH     TIMES                          SELECT                    BI     
+SYS    AQ$_UNFLUSHED_DEQUEUES         SELECT                    IX     
+SYS    DATA_FILE_DIR                  READ                      SH     
+SYS    DBMS_APPLY_ADM                 EXECUTE                   IX     
+SYS    DBMS_AQ                        EXECUTE                   IX     
+SYS    DBMS_AQADM                     EXECUTE                   IX     
+SYS    DBMS_AQ_BQVIEW                 EXECUTE                   IX     
+SYS    DBMS_CAPTURE_ADM               EXECUTE                   IX     
+SYS    DBMS_FLASHBACK                 EXECUTE                   IX     
+SYS    DBMS_PROPAGATION_ADM           EXECUTE                   IX     
+SYS    DBMS_STATS                     EXECUTE                   HR     
+SYS    DBMS_STATS                     EXECUTE                   IX     
+SYS    DBMS_STATS                     EXECUTE                   OE     
+SYS    DBMS_STATS                     EXECUTE                   PM     
+SYS    DBMS_STATS                     EXECUTE                   SH     
+SYS    DBMS_STREAMS_ADM               EXECUTE                   IX     
+SYS    LOG_FILE_DIR                   READ                      SH     
+SYS    LOG_FILE_DIR                   WRITE                     SH     
+SYS    MEDIA_DIR                      READ                      PM     
+SYS    QT77771_BUFFER                 SELECT                    IX     
+SYS    QT77798_BUFFER                 SELECT                    IX     
+SYS    SS_OE_XMLDIR                   READ                      OE     
+SYS    SS_OE_XMLDIR                   WRITE                     OE     
+SYS    SUBDIR                         READ                      OE     
+SYS    SUBDIR                         WRITE                     OE     
+
+64 filas seleccionadas. 
+
+
+Space usage
+
+OWNER  SEGMENT_TYPE         SUM(BYTES)
+------ -------------------- ----------
+HR     INDEX                   1245184
+HR     TABLE                    393216
+HR                             1638400
+IX     INDEX                    917504
+IX     TABLE                    524288
+IX     LOBINDEX                 196608
+IX     LOBSEGMENT               393216
+IX                             2031616
+OE     INDEX                   3080192
+OE     TABLE                   3932160
+OE     LOBINDEX                 983040
+OE     LOBSEGMENT              1966080
+OE     NESTED TABLE             589824
+OE                            10551296
+PM     INDEX                    196608
+PM     TABLE                     65536
+PM     LOBINDEX                 458752
+PM     LOBSEGMENT               917504
+PM     NESTED TABLE              65536
+PM                             1703936
+SH     INDEX                   2490368
+SH     TABLE                  19791872
+SH     LOBINDEX                  65536
+SH     LOBSEGMENT               131072
+SH     INDEX PARTITION       680132608
+SH     TABLE PARTITION       134217728
+SH                           836829184
+                             852754432
+
+28 filas seleccionadas. 
+
+
+Table cardinality relational and object tables
+
+OWNER  TABLE_NAME                       NUM_ROWS
+------ ------------------------------ ----------
+HR     COUNTRIES                              25
+HR     DEPARTMENTS                            27
+HR     EMPLOYEES                             107
+HR     JOB_HISTORY                            10
+HR     JOBS                                   19
+HR     LOCATIONS                              23
+HR     REGIONS                                 4
+IX     AQ$_ORDERS_QUEUETABLE_G                 0
+IX     AQ$_ORDERS_QUEUETABLE_H                 2
+IX     AQ$_ORDERS_QUEUETABLE_I                 2
+IX     AQ$_ORDERS_QUEUETABLE_L                 2
+IX     AQ$_ORDERS_QUEUETABLE_S                 4
+IX     AQ$_ORDERS_QUEUETABLE_T                 0
+IX     AQ$_STREAMS_QUEUE_TABLE_C               0
+IX     AQ$_STREAMS_QUEUE_TABLE_G               0
+IX     AQ$_STREAMS_QUEUE_TABLE_H               0
+IX     AQ$_STREAMS_QUEUE_TABLE_I               0
+IX     AQ$_STREAMS_QUEUE_TABLE_L               0
+IX     AQ$_STREAMS_QUEUE_TABLE_S               1
+IX     AQ$_STREAMS_QUEUE_TABLE_T               0
+IX     ORDERS_QUEUETABLE                        
+IX     STREAMS_QUEUE_TABLE                      
+IX     SYS_IOT_OVER_77785                      0
+IX     SYS_IOT_OVER_77814                      0
+OE     ACTION_TABLE                          132
+OE     CATEGORIES_TAB                         22
+OE     CUSTOMERS                             319
+OE     INVENTORIES                          1112
+OE     LINEITEM_TABLE                       2232
+OE     ORDER_ITEMS                           665
+OE     ORDERS                                105
+OE     PRODUCT_DESCRIPTIONS                 8640
+OE     PRODUCT_INFORMATION                   288
+OE     PRODUCT_REF_LIST_NESTEDTAB            288
+OE     PROMOTIONS                              2
+OE     PURCHASEORDER                         132
+OE     SUBCATEGORY_REF_LIST_NESTEDTAB         21
+OE     WAREHOUSES                              9
+PM     PRINT_MEDIA                             4
+PM     TEXTDOCS_NESTEDTAB                     12
+SH     CAL_MONTH_SALES_MV                     48
+SH     CHANNELS                                5
+SH     COSTS                                   0
+SH     COUNTRIES                              23
+SH     CUSTOMERS                           55500
+SH     DR$SUP_TEXT_IDX$I                        
+SH     DR$SUP_TEXT_IDX$K                        
+SH     DR$SUP_TEXT_IDX$N                        
+SH     DR$SUP_TEXT_IDX$R                        
+SH     DR$SUP_TEXT_IDX$U                        
+SH     FWEEK_PSCAT_SALES_MV                11266
+SH     PRODUCTS                               72
+SH     PROMOTIONS                            503
+SH     SALES                              918843
+SH     SALES_TRANSACTIONS_EXT                   
+SH     SUPPLEMENTARY_DEMOGRAPHICS           4500
+SH     TIMES                                1826
+
+57 filas seleccionadas. 
+
+
+Index cardinality (without  LOB indexes)
+
+OWNER  INDEX_NAME                DISTINCT_KEYS   NUM_ROWS
+------ ------------------------- ------------- ----------
+HR     COUNTRY_C_ID_PK                      25         25
+HR     DEPT_ID_PK                           27         27
+HR     DEPT_LOCATION_IX                      7         27
+HR     EMP_DEPARTMENT_IX                    11        106
+HR     EMP_EMAIL_UK                        107        107
+HR     EMP_EMP_ID_PK                       107        107
+HR     EMP_JOB_IX                           19        107
+HR     EMP_MANAGER_IX                       18        106
+HR     EMP_NAME_IX                         107        107
+HR     JHIST_DEPARTMENT_IX                   6         10
+HR     JHIST_EMP_ID_ST_DATE_PK              10         10
+HR     JHIST_EMPLOYEE_IX                     7         10
+HR     JHIST_JOB_IX                          8         10
+HR     JOB_ID_PK                            19         19
+HR     LOC_CITY_IX                          23         23
+HR     LOC_COUNTRY_IX                       14         23
+HR     LOC_ID_PK                            23         23
+HR     LOC_STATE_PROVINCE_IX                17         17
+HR     REG_ID_PK                             4          4
+IX     AQ$_STREAMS_QUEUE_TABLE_Y             0          0
+OE     ACTION_TABLE_MEMBERS                132        132
+OE     CUST_ACCOUNT_MANAGER_IX               4        319
+OE     CUST_EMAIL_IX                       319        319
+OE     CUST_LNAME_IX                       176        319
+OE     CUSTOMERS_PK                        319        319
+OE     CUST_UPPER_NAME_IX                  319        319
+OE     INVENTORY_IX                       1112       1112
+OE     INV_PRODUCT_IX                      208       1112
+OE     ITEM_ORDER_IX                       105        665
+OE     ITEM_PRODUCT_IX                     185        665
+OE     LINEITEM_TABLE_MEMBERS              132        132
+OE     ORD_CUSTOMER_IX                      47        105
+OE     ORDER_ITEMS_PK                      665        665
+OE     ORDER_ITEMS_UK                      665        665
+OE     ORDER_PK                            105        105
+OE     ORD_ORDER_DATE_IX                   105        105
+OE     ORD_SALES_REP_IX                      9         70
+OE     PRD_DESC_PK                        8640       8640
+OE     PROD_NAME_IX                       3727       8640
+OE     PROD_SUPPLIER_IX                     62        288
+OE     PRODUCT_INFORMATION_PK              288        288
+OE     PROMO_ID_PK                           2          2
+OE     WAREHOUSES_PK                         9          9
+OE     WHS_LOCATION_IX                       9          9
+PM     PRINTMEDIA_PK                         4          4
+SH     CHANNELS_PK                           5          5
+SH     COSTS_PROD_BIX                        0          0
+SH     COSTS_TIME_BIX                        0          0
+SH     COUNTRIES_PK                         23         23
+SH     CUSTOMERS_GENDER_BIX                  2          5
+SH     CUSTOMERS_MARITAL_BIX                11         18
+SH     CUSTOMERS_PK                      55500      55500
+SH     CUSTOMERS_YOB_BIX                    75         75
+SH     DR$SUP_TEXT_IDX$RC                                
+SH     DR$SUP_TEXT_IDX$X                     0          0
+SH     FW_PSC_S_MV_CHAN_BIX                  4          4
+SH     FW_PSC_S_MV_PROMO_BIX                 4          4
+SH     FW_PSC_S_MV_SUBCAT_BIX               21         21
+SH     FW_PSC_S_MV_WD_BIX                  210        210
+SH     PRODUCTS_PK                          72         72
+SH     PRODUCTS_PROD_CAT_IX                  5         72
+SH     PRODUCTS_PROD_STATUS_BIX              1          1
+SH     PRODUCTS_PROD_SUBCAT_IX              21         72
+SH     PROMO_PK                            503        503
+SH     SALES_CHANNEL_BIX                     4         92
+SH     SALES_CUST_BIX                     7059      35808
+SH     SALES_PROD_BIX                       72       1074
+SH     SALES_PROMO_BIX                       4         54
+SH     SALES_TIME_BIX                     1460       1460
+SH     SUP_TEXT_IDX                                      
+SH     TIMES_PK                           1826       1826
+
+71 filas seleccionadas. 
+
+La conexión creada por el comando de script CONNECT se ha desconectado

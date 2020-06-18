@@ -104,7 +104,7 @@ SPOOL &spool_file
 
 -- Dropping the user with all its objects
 
-DROP USER pm CASCADE;
+--DROP USER pm CASCADE;
 
 CREATE USER pm IDENTIFIED BY &pass;
 ALTER USER pm DEFAULT TABLESPACE &tbs QUOTA UNLIMITED ON &tbs; 
@@ -149,18 +149,18 @@ CONNECT pm/&pass@&connect_string
 ALTER SESSION SET NLS_LANGUAGE=American;
 ALTER SESSION SET NLS_TERRITORY=America;
 
-@__SUB__CWD__/product_media/pm_cre.sql   -- create objects
+@&&__SUB__CWD__/product_media/pm_cre.sql   -- create objects
 
 REM =======================================================
 REM use sqlldr to populate PRINT_MEDIA and its nested table
 REM =======================================================
  
-@__SUB__CWD__/product_media/pm_p_lob &pass &data_path &log_path &work_path &connect_string
+@&&__SUB__CWD__/product_media/pm_p_lob &pass &data_path &log_path &work_path &connect_string
 
 REM =======================================================
 REM finish
 REM =======================================================
 
-@__SUB__CWD__/product_media/pm_analz -- gather statistics 
+@&&__SUB__CWD__/product_media/pm_analz -- gather statistics 
 
 spool off

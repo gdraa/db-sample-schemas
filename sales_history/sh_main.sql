@@ -105,7 +105,7 @@ ALTER SESSION SET NLS_LANGUAGE='American';
 -- Dropping the user with all its objects
 --
 
-DROP USER sh CASCADE;
+--DROP USER sh CASCADE;
 
 REM =======================================================
 REM create user
@@ -173,21 +173,21 @@ REM =======================================================
 
 REM CONNECT sh/&pass  reconnecting undoes the prior NLS settings
 
-DEFINE vscript = __SUB__CWD__/sales_history/csh_&vrs
+DEFINE vscript = &&__SUB__CWD__/sales_history/csh_&vrs
 @&vscript
 
 REM =======================================================
 REM Populate tables
 REM =======================================================
 
-DEFINE vscript = __SUB__CWD__/sales_history/lsh_&vrs 
+DEFINE vscript = &&__SUB__CWD__/sales_history/lsh_&vrs 
 @&vscript &pass &data_dir &log_dir &vrs &connect_string
 
 REM =======================================================
 REM Post load operations
 REM =======================================================
 
-DEFINE vscript = __SUB__CWD__/sales_history/psh_&vrs 
+DEFINE vscript = &&__SUB__CWD__/sales_history/psh_&vrs 
 @&vscript
 
 

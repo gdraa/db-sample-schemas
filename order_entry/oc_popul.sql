@@ -171,9 +171,7 @@ INSERT INTO categories_tab
          subcategory_ref_list_typ)));
 
 INSERT INTO categories_tab
-  VALUES (catalog_typ('online catalog'
-         , 'catalog of computer hardware, software, and office equipment'
-         , 90,
+  VALUES (catalog_typ('online catalog', 'catalog of computer hardware, software, and office equipment', 90,
   CAST(MULTISET(SELECT REF(g)
     FROM categories_tab g
     WHERE g.category_id IN (10, 20, 30)) as

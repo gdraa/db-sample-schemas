@@ -94,7 +94,7 @@ REM =======================================================
 REM cleanup section
 REM =======================================================
 
-DROP USER bi CASCADE;
+--DROP USER bi CASCADE;
 
 REM =======================================================
 REM create user
@@ -126,20 +126,20 @@ REM  Changes made as OE
 REM     Grant object privileges to BI
 REM =======================================================
 
-@__SUB__CWD__/bus_intelligence/bi_oe_pr.sql &pwd_oe &connect_string
+@&&__SUB__CWD__/bus_intelligence/bi_oe_pr.sql &pwd_oe &connect_string
 
 REM =======================================================
 REM  Changes made as SH 
 REM     Grant object privileges to BI
 REM =======================================================
 
-@__SUB__CWD__/bus_intelligence/bi_sh_pr.sql &pwd_sh &connect_string
+@&&__SUB__CWD__/bus_intelligence/bi_sh_pr.sql &pwd_sh &connect_string
 
 REM =======================================================
 REM  Views and synonyms in the 10i BI schema
 REM =======================================================
 
-@__SUB__CWD__/bus_intelligence/bi_views.sql &pwd_bi &connect_string
+@&&__SUB__CWD__/bus_intelligence/bi_views.sql &pwd_bi &connect_string
 
 REM =======================================================
 REM  Verification
