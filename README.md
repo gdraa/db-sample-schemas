@@ -94,7 +94,7 @@ with your current working directory, for example
 perl -p -i.bak -e 's#&&__SUB__CWD__#'$(pwd)'#g' *.sql */*.sql */*.dat 
 ```
 Note: This fixed with "DEFINE __SUB__CWD__  = &0" line on mksample.sql and replacing __SUB__CWD__ to &&__SUB__CWD__ in all files.
-      ~/db-sample-schemas/product_media/pm_p_lob.dat need to replacing to '~/db-sample-schemas' because the fix not found in this file.
+      "~/db-sample-schemas/product_media/pm_p_lob.dat" need to replacing to "~/db-sample-schemas" because the fix not found in this file.
 
 
 ### 2.4. Set the Oracle environment
